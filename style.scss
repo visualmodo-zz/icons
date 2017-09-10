@@ -1,0 +1,98 @@
+@import "variables";
+
+@font-face {
+  font-family: 'vi';
+  src:
+    url('#{$icomoon-font-path}/vi.ttf?9d1zll') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?9d1zll') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?9d1zll#vi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i, .icomoon-liga {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'vi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vi-google {
+  &:before {
+    content: $vi-google;
+  }
+}
+.vi-google+ {
+  &:before {
+    content: $vi-google+;
+  }
+}
+.vi-dribbble {
+  &:before {
+    content: $vi-dribbble;
+  }
+}
+.vi-dropbox {
+  &:before {
+    content: $vi-dropbox;
+  }
+}
+.vi-facebook {
+  &:before {
+    content: $vi-facebook;
+  }
+}
+.vi-instagram {
+  &:before {
+    content: $vi-instagram;
+  }
+}
+.vi-medium {
+  &:before {
+    content: $vi-medium;
+  }
+}
+.vi-paypal {
+  &:before {
+    content: $vi-paypal;
+  }
+}
+.vi-twitter {
+  &:before {
+    content: $vi-twitter;
+  }
+}
+.vi-visualmodo {
+  &:before {
+    content: $vi-visualmodo;
+  }
+}
+.vi-wordpress {
+  &:before {
+    content: $vi-wordpress;
+  }
+}
+.vi-youtube {
+  &:before {
+    content: $vi-youtube;
+  }
+}
+
