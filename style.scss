@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?3k8asv') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?3k8asv') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?3k8asv#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?m26gcc') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?m26gcc') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?m26gcc#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -45,6 +45,26 @@ i, .icomoon-liga {
     content: $vi-android;
   }
 }
+.vi-apple {
+  &:before {
+    content: $vi-apple;
+  }
+}
+.vi-atom {
+  &:before {
+    content: $vi-atom;
+  }
+}
+.vi-behance {
+  &:before {
+    content: $vi-behance;
+  }
+}
+.vi-bootstrap {
+  &:before {
+    content: $vi-bootstrap;
+  }
+}
 .vi-dribbble {
   &:before {
     content: $vi-dribbble;
@@ -80,6 +100,11 @@ i, .icomoon-liga {
     content: $vi-google;
   }
 }
+.vi-google-play {
+  &:before {
+    content: $vi-google-play;
+  }
+}
 .vi-google+ {
   &:before {
     content: $vi-google+;
@@ -90,14 +115,29 @@ i, .icomoon-liga {
     content: $vi-instagram;
   }
 }
+.vi-kickstarter {
+  &:before {
+    content: $vi-kickstarter;
+  }
+}
+.vi-linkedin {
+  &:before {
+    content: $vi-linkedin;
+  }
+}
+.vi-mailchimp {
+  &:before {
+    content: $vi-mailchimp;
+  }
+}
 .vi-medium {
   &:before {
     content: $vi-medium;
   }
 }
-.vi-kickstarter {
+.vi-microsoft {
   &:before {
-    content: $vi-kickstarter;
+    content: $vi-microsoft;
   }
 }
 .vi-paypal {
@@ -110,14 +150,24 @@ i, .icomoon-liga {
     content: $vi-pinterest;
   }
 }
-.vi-twitter {
+.vi-playstation {
   &:before {
-    content: $vi-twitter;
+    content: $vi-playstation;
+  }
+}
+.vi-react {
+  &:before {
+    content: $vi-react;
   }
 }
 .vi-reddit {
   &:before {
     content: $vi-reddit;
+  }
+}
+.vi-skype {
+  &:before {
+    content: $vi-skype;
   }
 }
 .vi-slack {
@@ -135,9 +185,34 @@ i, .icomoon-liga {
     content: $vi-spotify;
   }
 }
+.vi-steam {
+  &:before {
+    content: $vi-steam;
+  }
+}
+.vi-stripe {
+  &:before {
+    content: $vi-stripe;
+  }
+}
 .vi-tripadvisor {
   &:before {
     content: $vi-tripadvisor;
+  }
+}
+.vi-twitch {
+  &:before {
+    content: $vi-twitch;
+  }
+}
+.vi-twitter {
+  &:before {
+    content: $vi-twitter;
+  }
+}
+.vi-vimeo {
+  &:before {
+    content: $vi-vimeo;
   }
 }
 .vi-visualmodo {
@@ -150,6 +225,11 @@ i, .icomoon-liga {
     content: $vi-whatsapp;
   }
 }
+.vi-wikipedia {
+  &:before {
+    content: $vi-wikipedia;
+  }
+}
 .vi-wordpress {
   &:before {
     content: $vi-wordpress;
@@ -158,6 +238,11 @@ i, .icomoon-liga {
 .vi-youtube {
   &:before {
     content: $vi-youtube;
+  }
+}
+.vi-zendesk {
+  &:before {
+    content: $vi-zendesk;
   }
 }
 

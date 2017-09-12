@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?3k8asv') format('truetype'),
-    url('fonts/vi.woff?3k8asv') format('woff'),
-    url('fonts/vi.svg?3k8asv#vi') format('svg');
+    url('fonts/vi.ttf?m26gcc') format('truetype'),
+    url('fonts/vi.woff?m26gcc') format('woff'),
+    url('fonts/vi.svg?m26gcc#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,6 +39,18 @@ i, .icomoon-liga {
 .vi-android:before {
   content: "\e90a";
 }
+.vi-apple:before {
+  content: "\e91a";
+}
+.vi-atom:before {
+  content: "\e91c";
+}
+.vi-behance:before {
+  content: "\e91e";
+}
+.vi-bootstrap:before {
+  content: "\e91f";
+}
 .vi-dribbble:before {
   content: "\e900";
 }
@@ -60,17 +72,29 @@ i, .icomoon-liga {
 .vi-google:before {
   content: "\e913";
 }
+.vi-google-play:before {
+  content: "\e923";
+}
 .vi-google+:before {
   content: "\e914";
 }
 .vi-instagram:before {
   content: "\e903";
 }
+.vi-kickstarter:before {
+  content: "\e917";
+}
+.vi-linkedin:before {
+  content: "\e924";
+}
+.vi-mailchimp:before {
+  content: "\e927";
+}
 .vi-medium:before {
   content: "\e904";
 }
-.vi-kickstarter:before {
-  content: "\e917";
+.vi-microsoft:before {
+  content: "\e91b";
 }
 .vi-paypal:before {
   content: "\e905";
@@ -78,11 +102,17 @@ i, .icomoon-liga {
 .vi-pinterest:before {
   content: "\e90d";
 }
-.vi-twitter:before {
-  content: "\e906";
+.vi-playstation:before {
+  content: "\e921";
+}
+.vi-react:before {
+  content: "\e929";
 }
 .vi-reddit:before {
   content: "\e910";
+}
+.vi-skype:before {
+  content: "\e925";
 }
 .vi-slack:before {
   content: "\e918";
@@ -93,8 +123,23 @@ i, .icomoon-liga {
 .vi-spotify:before {
   content: "\e916";
 }
+.vi-steam:before {
+  content: "\e91d";
+}
+.vi-stripe:before {
+  content: "\e922";
+}
 .vi-tripadvisor:before {
   content: "\e912";
+}
+.vi-twitch:before {
+  content: "\e920";
+}
+.vi-twitter:before {
+  content: "\e906";
+}
+.vi-vimeo:before {
+  content: "\e926";
 }
 .vi-visualmodo:before {
   content: "\e907";
@@ -102,9 +147,15 @@ i, .icomoon-liga {
 .vi-whatsapp:before {
   content: "\e915";
 }
+.vi-wikipedia:before {
+  content: "\e919";
+}
 .vi-wordpress:before {
   content: "\e908";
 }
 .vi-youtube:before {
   content: "\e909";
+}
+.vi-zendesk:before {
+  content: "\e928";
 }
