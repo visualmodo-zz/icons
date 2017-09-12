@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?9d1zll') format('truetype'),
-    url('fonts/vi.woff?9d1zll') format('woff'),
-    url('fonts/vi.svg?9d1zll#vi') format('svg');
+    url('fonts/vi.ttf?3k8asv') format('truetype'),
+    url('fonts/vi.woff?3k8asv') format('woff'),
+    url('fonts/vi.svg?3k8asv#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,11 +33,11 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.vi-google:before {
-  content: "\e90a";
-}
-.vi-google+:before {
+.vi-amazon:before {
   content: "\e90b";
+}
+.vi-android:before {
+  content: "\e90a";
 }
 .vi-dribbble:before {
   content: "\e900";
@@ -45,8 +45,23 @@ i, .icomoon-liga {
 .vi-dropbox:before {
   content: "\e901";
 }
+.vi-ebay:before {
+  content: "\e90f";
+}
 .vi-facebook:before {
   content: "\e902";
+}
+.vi-git:before {
+  content: "\e90e";
+}
+.vi-github:before {
+  content: "\e90c";
+}
+.vi-google:before {
+  content: "\e913";
+}
+.vi-google+:before {
+  content: "\e914";
 }
 .vi-instagram:before {
   content: "\e903";
@@ -54,14 +69,38 @@ i, .icomoon-liga {
 .vi-medium:before {
   content: "\e904";
 }
+.vi-kickstarter:before {
+  content: "\e917";
+}
 .vi-paypal:before {
   content: "\e905";
+}
+.vi-pinterest:before {
+  content: "\e90d";
 }
 .vi-twitter:before {
   content: "\e906";
 }
+.vi-reddit:before {
+  content: "\e910";
+}
+.vi-slack:before {
+  content: "\e918";
+}
+.vi-snapchat:before {
+  content: "\e911";
+}
+.vi-spotify:before {
+  content: "\e916";
+}
+.vi-tripadvisor:before {
+  content: "\e912";
+}
 .vi-visualmodo:before {
   content: "\e907";
+}
+.vi-whatsapp:before {
+  content: "\e915";
 }
 .vi-wordpress:before {
   content: "\e908";

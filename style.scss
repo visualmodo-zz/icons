@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?9d1zll') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?9d1zll') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?9d1zll#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?3k8asv') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?3k8asv') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?3k8asv#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,14 +35,14 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.vi-google {
+.vi-amazon {
   &:before {
-    content: $vi-google;
+    content: $vi-amazon;
   }
 }
-.vi-google+ {
+.vi-android {
   &:before {
-    content: $vi-google+;
+    content: $vi-android;
   }
 }
 .vi-dribbble {
@@ -55,9 +55,34 @@ i, .icomoon-liga {
     content: $vi-dropbox;
   }
 }
+.vi-ebay {
+  &:before {
+    content: $vi-ebay;
+  }
+}
 .vi-facebook {
   &:before {
     content: $vi-facebook;
+  }
+}
+.vi-git {
+  &:before {
+    content: $vi-git;
+  }
+}
+.vi-github {
+  &:before {
+    content: $vi-github;
+  }
+}
+.vi-google {
+  &:before {
+    content: $vi-google;
+  }
+}
+.vi-google+ {
+  &:before {
+    content: $vi-google+;
   }
 }
 .vi-instagram {
@@ -70,9 +95,19 @@ i, .icomoon-liga {
     content: $vi-medium;
   }
 }
+.vi-kickstarter {
+  &:before {
+    content: $vi-kickstarter;
+  }
+}
 .vi-paypal {
   &:before {
     content: $vi-paypal;
+  }
+}
+.vi-pinterest {
+  &:before {
+    content: $vi-pinterest;
   }
 }
 .vi-twitter {
@@ -80,9 +115,39 @@ i, .icomoon-liga {
     content: $vi-twitter;
   }
 }
+.vi-reddit {
+  &:before {
+    content: $vi-reddit;
+  }
+}
+.vi-slack {
+  &:before {
+    content: $vi-slack;
+  }
+}
+.vi-snapchat {
+  &:before {
+    content: $vi-snapchat;
+  }
+}
+.vi-spotify {
+  &:before {
+    content: $vi-spotify;
+  }
+}
+.vi-tripadvisor {
+  &:before {
+    content: $vi-tripadvisor;
+  }
+}
 .vi-visualmodo {
   &:before {
     content: $vi-visualmodo;
+  }
+}
+.vi-whatsapp {
+  &:before {
+    content: $vi-whatsapp;
   }
 }
 .vi-wordpress {
