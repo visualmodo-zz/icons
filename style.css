@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?m26gcc') format('truetype'),
-    url('fonts/vi.woff?m26gcc') format('woff'),
-    url('fonts/vi.svg?m26gcc#vi') format('svg');
+    url('fonts/vi.ttf?n7tkcr') format('truetype'),
+    url('fonts/vi.woff?n7tkcr') format('woff'),
+    url('fonts/vi.svg?n7tkcr#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,8 +48,14 @@ i, .icomoon-liga {
 .vi-behance:before {
   content: "\e91e";
 }
+.vi-bitcoin:before {
+  content: "\e92b";
+}
 .vi-bootstrap:before {
   content: "\e91f";
+}
+.vi-dash:before {
+  content: "\e92d";
 }
 .vi-dribbble:before {
   content: "\e900";
@@ -59,6 +65,9 @@ i, .icomoon-liga {
 }
 .vi-ebay:before {
   content: "\e90f";
+}
+.vi-ethereum:before {
+  content: "\e92c";
 }
 .vi-facebook:before {
   content: "\e902";
@@ -72,11 +81,11 @@ i, .icomoon-liga {
 .vi-google:before {
   content: "\e913";
 }
-.vi-google-play:before {
-  content: "\e923";
-}
 .vi-google+:before {
   content: "\e914";
+}
+.vi-google-play:before {
+  content: "\e923";
 }
 .vi-instagram:before {
   content: "\e903";
@@ -87,6 +96,9 @@ i, .icomoon-liga {
 .vi-linkedin:before {
   content: "\e924";
 }
+.vi-litecoin:before {
+  content: "\e92e";
+}
 .vi-mailchimp:before {
   content: "\e927";
 }
@@ -95,6 +107,12 @@ i, .icomoon-liga {
 }
 .vi-microsoft:before {
   content: "\e91b";
+}
+.vi-monero:before {
+  content: "\e931";
+}
+.vi-nem:before {
+  content: "\e930";
 }
 .vi-paypal:before {
   content: "\e905";
@@ -110,6 +128,9 @@ i, .icomoon-liga {
 }
 .vi-reddit:before {
   content: "\e910";
+}
+.vi-ripple:before {
+  content: "\e92f";
 }
 .vi-skype:before {
   content: "\e925";
@@ -128,6 +149,12 @@ i, .icomoon-liga {
 }
 .vi-stripe:before {
   content: "\e922";
+}
+.vi-tesla:before {
+  content: "\e933";
+}
+.vi-tether:before {
+  content: "\e932";
 }
 .vi-tripadvisor:before {
   content: "\e912";
@@ -152,6 +179,9 @@ i, .icomoon-liga {
 }
 .vi-wordpress:before {
   content: "\e908";
+}
+.vi-xbox:before {
+  content: "\e92a";
 }
 .vi-youtube:before {
   content: "\e909";
