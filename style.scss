@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?xbbsz4') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?xbbsz4') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?xbbsz4#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?i9kc2p') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?i9kc2p') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?i9kc2p#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -205,6 +205,11 @@ i, .icomoon-liga {
     content: $vi-minus-circle;
   }
 }
+.vi-minus-square {
+  &:before {
+    content: $vi-minus-square;
+  }
+}
 .vi-monero {
   &:before {
     content: $vi-monero;
@@ -238,6 +243,11 @@ i, .icomoon-liga {
 .vi-plus-circle {
   &:before {
     content: $vi-plus-circle;
+  }
+}
+.vi-plus-square {
+  &:before {
+    content: $vi-plus-square;
   }
 }
 .vi-react {

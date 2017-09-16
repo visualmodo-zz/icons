@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?xbbsz4') format('truetype'),
-    url('fonts/vi.woff?xbbsz4') format('woff'),
-    url('fonts/vi.svg?xbbsz4#vi') format('svg');
+    url('fonts/vi.ttf?i9kc2p') format('truetype'),
+    url('fonts/vi.woff?i9kc2p') format('woff'),
+    url('fonts/vi.svg?i9kc2p#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -135,6 +135,9 @@ i, .icomoon-liga {
 .vi-minus-circle:before {
   content: "\e93a";
 }
+.vi-minus-square:before {
+  content: "\e942";
+}
 .vi-monero:before {
   content: "\e931";
 }
@@ -155,6 +158,9 @@ i, .icomoon-liga {
 }
 .vi-plus-circle:before {
   content: "\e939";
+}
+.vi-plus-square:before {
+  content: "\e941";
 }
 .vi-react:before {
   content: "\e929";
