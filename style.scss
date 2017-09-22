@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?i9kc2p') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?i9kc2p') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?i9kc2p#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?ddzsg4') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?ddzsg4') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?ddzsg4#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,6 +35,41 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-add-tab {
+  &:before {
+    content: $vi-add-tab;
+  }
+}
+.vi-airplane-mode {
+  &:before {
+    content: $vi-airplane-mode;
+  }
+}
+.vi-airplane-mode-off {
+  &:before {
+    content: $vi-airplane-mode-off;
+  }
+}
+.vi-align-bottom {
+  &:before {
+    content: $vi-align-bottom;
+  }
+}
+.vi-align-left {
+  &:before {
+    content: $vi-align-left;
+  }
+}
+.vi-align-right {
+  &:before {
+    content: $vi-align-right;
+  }
+}
+.vi-align-top {
+  &:before {
+    content: $vi-align-top;
+  }
+}
 .vi-amazon {
   &:before {
     content: $vi-amazon;
@@ -53,6 +88,11 @@ i, .icomoon-liga {
 .vi-atom {
   &:before {
     content: $vi-atom;
+  }
+}
+.vi-backward {
+  &:before {
+    content: $vi-backward;
   }
 }
 .vi-behance {
@@ -75,6 +115,16 @@ i, .icomoon-liga {
     content: $vi-bootstrap;
   }
 }
+.vi-brightness-high {
+  &:before {
+    content: $vi-brightness-high;
+  }
+}
+.vi-brightness-low {
+  &:before {
+    content: $vi-brightness-low;
+  }
+}
 .vi-check {
   &:before {
     content: $vi-check;
@@ -90,6 +140,21 @@ i, .icomoon-liga {
     content: $vi-check-circle;
   }
 }
+.vi-check-circle-alt {
+  &:before {
+    content: $vi-check-circle-alt;
+  }
+}
+.vi-check-square {
+  &:before {
+    content: $vi-check-square;
+  }
+}
+.vi-check-square-alt {
+  &:before {
+    content: $vi-check-square-alt;
+  }
+}
 .vi-close {
   &:before {
     content: $vi-close;
@@ -100,9 +165,44 @@ i, .icomoon-liga {
     content: $vi-close-circle;
   }
 }
+.vi-close-square {
+  &:before {
+    content: $vi-close-square;
+  }
+}
+.vi-close-square-full {
+  &:before {
+    content: $vi-close-square-full;
+  }
+}
+.vi-config {
+  &:before {
+    content: $vi-config;
+  }
+}
+.vi-config-alt {
+  &:before {
+    content: $vi-config-alt;
+  }
+}
 .vi-dash {
   &:before {
     content: $vi-dash;
+  }
+}
+.vi-door-lock {
+  &:before {
+    content: $vi-door-lock;
+  }
+}
+.vi-download {
+  &:before {
+    content: $vi-download;
+  }
+}
+.vi-download-alt {
+  &:before {
+    content: $vi-download-alt;
   }
 }
 .vi-dribbble {
@@ -120,6 +220,16 @@ i, .icomoon-liga {
     content: $vi-ebay;
   }
 }
+.vi-edit-circle {
+  &:before {
+    content: $vi-edit-circle;
+  }
+}
+.vi-edit-square {
+  &:before {
+    content: $vi-edit-square;
+  }
+}
 .vi-ethereum {
   &:before {
     content: $vi-ethereum;
@@ -130,9 +240,79 @@ i, .icomoon-liga {
     content: $vi-exclamation-circle;
   }
 }
+.vi-expand {
+  &:before {
+    content: $vi-expand;
+  }
+}
+.vi-expand-2 {
+  &:before {
+    content: $vi-expand-2;
+  }
+}
+.vi-expand-3 {
+  &:before {
+    content: $vi-expand-3;
+  }
+}
+.vi-expand-4 {
+  &:before {
+    content: $vi-expand-4;
+  }
+}
+.vi-expand-horizontal {
+  &:before {
+    content: $vi-expand-horizontal;
+  }
+}
+.vi-expand-vertical {
+  &:before {
+    content: $vi-expand-vertical;
+  }
+}
+.vi-eye {
+  &:before {
+    content: $vi-eye;
+  }
+}
+.vi-eye-off {
+  &:before {
+    content: $vi-eye-off;
+  }
+}
 .vi-facebook {
   &:before {
     content: $vi-facebook;
+  }
+}
+.vi-flash {
+  &:before {
+    content: $vi-flash;
+  }
+}
+.vi-flash-2 {
+  &:before {
+    content: $vi-flash-2;
+  }
+}
+.vi-flash-3 {
+  &:before {
+    content: $vi-flash-3;
+  }
+}
+.vi-flip-horizontal {
+  &:before {
+    content: $vi-flip-horizontal;
+  }
+}
+.vi-flip-vertical {
+  &:before {
+    content: $vi-flip-vertical;
+  }
+}
+.vi-foward {
+  &:before {
+    content: $vi-foward;
   }
 }
 .vi-git {
@@ -160,9 +340,54 @@ i, .icomoon-liga {
     content: $vi-google-play;
   }
 }
+.vi-grid-circles {
+  &:before {
+    content: $vi-grid-circles;
+  }
+}
+.vi-grid-squares {
+  &:before {
+    content: $vi-grid-squares;
+  }
+}
+.vi-grid-squares-2 {
+  &:before {
+    content: $vi-grid-squares-2;
+  }
+}
+.vi-hamburger-menu {
+  &:before {
+    content: $vi-hamburger-menu;
+  }
+}
+.vi-hamburger-menu-compact {
+  &:before {
+    content: $vi-hamburger-menu-compact;
+  }
+}
+.vi-help {
+  &:before {
+    content: $vi-help;
+  }
+}
+.vi-help-2 {
+  &:before {
+    content: $vi-help-2;
+  }
+}
+.vi-home {
+  &:before {
+    content: $vi-home;
+  }
+}
 .vi-info-circle {
   &:before {
     content: $vi-info-circle;
+  }
+}
+.vi-inside {
+  &:before {
+    content: $vi-inside;
   }
 }
 .vi-instagram {
@@ -248,6 +473,11 @@ i, .icomoon-liga {
 .vi-plus-square {
   &:before {
     content: $vi-plus-square;
+  }
+}
+.vi-power {
+  &:before {
+    content: $vi-power;
   }
 }
 .vi-react {

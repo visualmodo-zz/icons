@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?i9kc2p') format('truetype'),
-    url('fonts/vi.woff?i9kc2p') format('woff'),
-    url('fonts/vi.svg?i9kc2p#vi') format('svg');
+    url('fonts/vi.ttf?ddzsg4') format('truetype'),
+    url('fonts/vi.woff?ddzsg4') format('woff'),
+    url('fonts/vi.svg?ddzsg4#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,6 +33,27 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-add-tab:before {
+  content: "\e949";
+}
+.vi-airplane-mode:before {
+  content: "\e94a";
+}
+.vi-airplane-mode-off:before {
+  content: "\e94b";
+}
+.vi-align-bottom:before {
+  content: "\e94f";
+}
+.vi-align-left:before {
+  content: "\e94c";
+}
+.vi-align-right:before {
+  content: "\e94d";
+}
+.vi-align-top:before {
+  content: "\e94e";
+}
 .vi-amazon:before {
   content: "\e90b";
 }
@@ -44,6 +65,9 @@ i, .icomoon-liga {
 }
 .vi-atom:before {
   content: "\e91c";
+}
+.vi-backward:before {
+  content: "\e950";
 }
 .vi-behance:before {
   content: "\e91e";
@@ -57,6 +81,12 @@ i, .icomoon-liga {
 .vi-bootstrap:before {
   content: "\e91f";
 }
+.vi-brightness-high:before {
+  content: "\e951";
+}
+.vi-brightness-low:before {
+  content: "\e952";
+}
 .vi-check:before {
   content: "\e935";
 }
@@ -66,14 +96,44 @@ i, .icomoon-liga {
 .vi-check-circle:before {
   content: "\e93b";
 }
+.vi-check-circle-alt:before {
+  content: "\e947";
+}
+.vi-check-square:before {
+  content: "\e943";
+}
+.vi-check-square-alt:before {
+  content: "\e948";
+}
 .vi-close:before {
   content: "\e937";
 }
 .vi-close-circle:before {
   content: "\e938";
 }
+.vi-close-square:before {
+  content: "\e944";
+}
+.vi-close-square-full:before {
+  content: "\e945";
+}
+.vi-config:before {
+  content: "\e953";
+}
+.vi-config-alt:before {
+  content: "\e954";
+}
 .vi-dash:before {
   content: "\e92d";
+}
+.vi-door-lock:before {
+  content: "\e955";
+}
+.vi-download:before {
+  content: "\e956";
+}
+.vi-download-alt:before {
+  content: "\e957";
 }
 .vi-dribbble:before {
   content: "\e900";
@@ -84,14 +144,62 @@ i, .icomoon-liga {
 .vi-ebay:before {
   content: "\e90f";
 }
+.vi-edit-circle:before {
+  content: "\e959";
+}
+.vi-edit-square:before {
+  content: "\e958";
+}
 .vi-ethereum:before {
   content: "\e92c";
 }
 .vi-exclamation-circle:before {
   content: "\e940";
 }
+.vi-expand:before {
+  content: "\e95a";
+}
+.vi-expand-2:before {
+  content: "\e95b";
+}
+.vi-expand-3:before {
+  content: "\e95c";
+}
+.vi-expand-4:before {
+  content: "\e95d";
+}
+.vi-expand-horizontal:before {
+  content: "\e95e";
+}
+.vi-expand-vertical:before {
+  content: "\e95f";
+}
+.vi-eye:before {
+  content: "\e960";
+}
+.vi-eye-off:before {
+  content: "\e961";
+}
 .vi-facebook:before {
   content: "\e902";
+}
+.vi-flash:before {
+  content: "\e962";
+}
+.vi-flash-2:before {
+  content: "\e963";
+}
+.vi-flash-3:before {
+  content: "\e964";
+}
+.vi-flip-horizontal:before {
+  content: "\e965";
+}
+.vi-flip-vertical:before {
+  content: "\e966";
+}
+.vi-foward:before {
+  content: "\e967";
 }
 .vi-git:before {
   content: "\e90e";
@@ -108,8 +216,35 @@ i, .icomoon-liga {
 .vi-google-play:before {
   content: "\e923";
 }
+.vi-grid-circles:before {
+  content: "\e968";
+}
+.vi-grid-squares:before {
+  content: "\e969";
+}
+.vi-grid-squares-2:before {
+  content: "\e96a";
+}
+.vi-hamburger-menu:before {
+  content: "\e96b";
+}
+.vi-hamburger-menu-compact:before {
+  content: "\e96c";
+}
+.vi-help:before {
+  content: "\e96d";
+}
+.vi-help-2:before {
+  content: "\e96e";
+}
+.vi-home:before {
+  content: "\e96f";
+}
 .vi-info-circle:before {
   content: "\e93f";
+}
+.vi-inside:before {
+  content: "\e970";
 }
 .vi-instagram:before {
   content: "\e903";
@@ -161,6 +296,9 @@ i, .icomoon-liga {
 }
 .vi-plus-square:before {
   content: "\e941";
+}
+.vi-power:before {
+  content: "\e946";
 }
 .vi-react:before {
   content: "\e929";
