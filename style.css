@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?fiudfy') format('truetype'),
-    url('fonts/vi.woff?fiudfy') format('woff'),
-    url('fonts/vi.svg?fiudfy#vi') format('svg');
+    url('fonts/vi.ttf?c2zbnw') format('truetype'),
+    url('fonts/vi.woff?c2zbnw') format('woff'),
+    url('fonts/vi.svg?c2zbnw#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -66,8 +66,68 @@ i, .icomoon-liga {
 .vi-atom:before {
   content: "\e91c";
 }
+.vi-auction:before {
+  content: "\e9b9";
+}
+.vi-back:before {
+  content: "\e9e2";
+}
+.vi-back-2:before {
+  content: "\e9e3";
+}
+.vi-back-3:before {
+  content: "\e9e4";
+}
+.vi-back-4:before {
+  content: "\e9e5";
+}
+.vi-back-4-circle:before {
+  content: "\e9e6";
+}
+.vi-back-5:before {
+  content: "\e9e8";
+}
+.vi-back-6:before {
+  content: "\e9e9";
+}
+.vi-back-7:before {
+  content: "\e9ea";
+}
+.vi-back-square-4:before {
+  content: "\e9e7";
+}
 .vi-backward:before {
   content: "\e950";
+}
+.vi-backward-2:before {
+  content: "\e9eb";
+}
+.vi-bag-remove:before {
+  content: "\e9ba";
+}
+.vi-barcode-scan:before {
+  content: "\e9bb";
+}
+.vi-basket:before {
+  content: "\e9bc";
+}
+.vi-basket-add:before {
+  content: "\e9bd";
+}
+.vi-basket-checked:before {
+  content: "\e9be";
+}
+.vi-basket-close:before {
+  content: "\e9bf";
+}
+.vi-basket-in:before {
+  content: "\e9c1";
+}
+.vi-basket-out:before {
+  content: "\e9c0";
+}
+.vi-basket-remove:before {
+  content: "\e9c2";
 }
 .vi-behance:before {
   content: "\e91e";
@@ -87,6 +147,30 @@ i, .icomoon-liga {
 .vi-brightness-low:before {
   content: "\e952";
 }
+.vi-cart:before {
+  content: "\e9c3";
+}
+.vi-cart-add:before {
+  content: "\e9c4";
+}
+.vi-cart-cancel:before {
+  content: "\e9c5";
+}
+.vi-cart-checked:before {
+  content: "\e9c6";
+}
+.vi-cart-in:before {
+  content: "\e9c7";
+}
+.vi-cart-loaded:before {
+  content: "\e9c8";
+}
+.vi-cart-out:before {
+  content: "\e9c9";
+}
+.vi-cart-remove:before {
+  content: "\e9ca";
+}
 .vi-check:before {
   content: "\e935";
 }
@@ -104,6 +188,42 @@ i, .icomoon-liga {
 }
 .vi-check-square-alt:before {
   content: "\e948";
+}
+.vi-circle-down:before {
+  content: "\e9ec";
+}
+.vi-circle-down-2:before {
+  content: "\e9ed";
+}
+.vi-circle-down-3:before {
+  content: "\e9ee";
+}
+.vi-circle-left:before {
+  content: "\e9ef";
+}
+.vi-circle-left-2:before {
+  content: "\e9f0";
+}
+.vi-circle-left-3:before {
+  content: "\e9f1";
+}
+.vi-circle-right:before {
+  content: "\e9f2";
+}
+.vi-circle-right-2:before {
+  content: "\e9f3";
+}
+.vi-circle-right-3:before {
+  content: "\e9f4";
+}
+.vi-circle-up:before {
+  content: "\e9f5";
+}
+.vi-circle-up-2:before {
+  content: "\e9f6";
+}
+.vi-circle-up-3:before {
+  content: "\e9f7";
 }
 .vi-close:before {
   content: "\e937";
@@ -126,8 +246,41 @@ i, .icomoon-liga {
 .vi-dash:before {
   content: "\e92d";
 }
+.vi-delivery:before {
+  content: "\e9cb";
+}
+.vi-delivery-2:before {
+  content: "\e9cc";
+}
+.vi-delivery-box:before {
+  content: "\e9cd";
+}
+.vi-delivery-box-2:before {
+  content: "\e9ce";
+}
+.vi-discount-circle:before {
+  content: "\e9cf";
+}
+.vi-discount-star:before {
+  content: "\e9d0";
+}
 .vi-door-lock:before {
   content: "\e955";
+}
+.vi-double-arrows-left:before {
+  content: "\e9f8";
+}
+.vi-double-arrows-right:before {
+  content: "\e9f9";
+}
+.vi-down:before {
+  content: "\e9fa";
+}
+.vi-down-2:before {
+  content: "\e9fb";
+}
+.vi-down-3:before {
+  content: "\e9fc";
 }
 .vi-download:before {
   content: "\e956";
@@ -152,9 +305,6 @@ i, .icomoon-liga {
 }
 .vi-ethereum:before {
   content: "\e92c";
-}
-.vi-exclamation-circle:before {
-  content: "\e940";
 }
 .vi-expand:before {
   content: "\e95a";
@@ -198,8 +348,14 @@ i, .icomoon-liga {
 .vi-flip-vertical:before {
   content: "\e966";
 }
-.vi-foward:before {
+.vi-fork-arrows:before {
+  content: "\e9fd";
+}
+.vi-forward:before {
   content: "\e967";
+}
+.vi-forward-2:before {
+  content: "\e9fe";
 }
 .vi-git:before {
   content: "\e90e";
@@ -230,6 +386,9 @@ i, .icomoon-liga {
 }
 .vi-hamburger-menu-compact:before {
   content: "\e96c";
+}
+.vi-handbag:before {
+  content: "\e9d1";
 }
 .vi-help:before {
   content: "\e96d";
@@ -273,6 +432,15 @@ i, .icomoon-liga {
 .vi-layout-3:before {
   content: "\e977";
 }
+.vi-left:before {
+  content: "\e9ff";
+}
+.vi-left-2:before {
+  content: "\ea00";
+}
+.vi-left-3:before {
+  content: "\ea01";
+}
 .vi-linkedin:before {
   content: "\e924";
 }
@@ -287,6 +455,9 @@ i, .icomoon-liga {
 }
 .vi-list-4:before {
   content: "\e97b";
+}
+.vi-list-heart:before {
+  content: "\e9d2";
 }
 .vi-litecoin:before {
   content: "\e92e";
@@ -369,6 +540,12 @@ i, .icomoon-liga {
 .vi-nem:before {
   content: "\e930";
 }
+.vi-next:before {
+  content: "\ea02";
+}
+.vi-next-2:before {
+  content: "\ea03";
+}
 .vi-notification:before {
   content: "\e990";
 }
@@ -381,14 +558,35 @@ i, .icomoon-liga {
 .vi-notification-paused:before {
   content: "\e993";
 }
+.vi-open-sign:before {
+  content: "\e9d3";
+}
 .vi-outside:before {
   content: "\e994";
 }
 .vi-paper-clip:before {
   content: "\e995";
 }
+.vi-paper-plane:before {
+  content: "\e996";
+}
+.vi-pass:before {
+  content: "\e997";
+}
 .vi-paypal:before {
   content: "\e905";
+}
+.vi-phone-vibration:before {
+  content: "\e998";
+}
+.vi-pin:before {
+  content: "\e999";
+}
+.vi-pin-2:before {
+  content: "\e99a";
+}
+.vi-pin-3:before {
+  content: "\e99b";
 }
 .vi-pinterest:before {
   content: "\e90d";
@@ -408,14 +606,68 @@ i, .icomoon-liga {
 .vi-power:before {
   content: "\e946";
 }
+.vi-price-tag:before {
+  content: "\e9d4";
+}
+.vi-qr-code:before {
+  content: "\e9da";
+}
+.vi-question-circle:before {
+  content: "\e940";
+}
 .vi-react:before {
   content: "\e929";
 }
 .vi-reddit:before {
   content: "\e910";
 }
+.vi-refresh:before {
+  content: "\e99c";
+}
+.vi-refresh-2:before {
+  content: "\e99d";
+}
+.vi-refresh-warning:before {
+  content: "\e99e";
+}
+.vi-reload:before {
+  content: "\e99f";
+}
+.vi-reload-checked:before {
+  content: "\e9a0";
+}
+.vi-remove-tab:before {
+  content: "\e9a1";
+}
 .vi-ripple:before {
   content: "\e92f";
+}
+.vi-scroll:before {
+  content: "\e9a2";
+}
+.vi-search-history:before {
+  content: "\e9a3";
+}
+.vi-settings:before {
+  content: "\e9a4";
+}
+.vi-share:before {
+  content: "\e9a5";
+}
+.vi-share-2:before {
+  content: "\e9a6";
+}
+.vi-share-3:before {
+  content: "\e9a7";
+}
+.vi-share-4:before {
+  content: "\e9a8";
+}
+.vi-shopping-tag:before {
+  content: "\e9d5";
+}
+.vi-shopping-tags:before {
+  content: "\e9d6";
 }
 .vi-skype:before {
   content: "\e925";
@@ -435,11 +687,44 @@ i, .icomoon-liga {
 .vi-stripe:before {
   content: "\e922";
 }
+.vi-swap-horizontal:before {
+  content: "\e9a9";
+}
+.vi-swap-vertical:before {
+  content: "\e9aa";
+}
+.vi-switch-off:before {
+  content: "\e9ad";
+}
+.vi-switch-on:before {
+  content: "\e9ae";
+}
+.vi-switches:before {
+  content: "\e9ab";
+}
+.vi-switches-2:before {
+  content: "\e9ac";
+}
+.vi-tabs:before {
+  content: "\e9af";
+}
+.vi-tabs-2:before {
+  content: "\e9b0";
+}
 .vi-tesla:before {
   content: "\e933";
 }
 .vi-tether:before {
   content: "\e932";
+}
+.vi-ticket:before {
+  content: "\e9d7";
+}
+.vi-trash:before {
+  content: "\e9b1";
+}
+.vi-trash-recycle:before {
+  content: "\e9b2";
 }
 .vi-tripadvisor:before {
   content: "\e912";
@@ -453,11 +738,44 @@ i, .icomoon-liga {
 .vi-unlock:before {
   content: "\e97d";
 }
+.vi-upload:before {
+  content: "\e9b3";
+}
+.vi-upload-2:before {
+  content: "\e9b4";
+}
 .vi-vimeo:before {
   content: "\e926";
 }
 .vi-visualmodo:before {
   content: "\e907";
+}
+.vi-wallet:before {
+  content: "\e9d8";
+}
+.vi-wallet-2:before {
+  content: "\e9d9";
+}
+.vi-wallet-add:before {
+  content: "\e9db";
+}
+.vi-wallet-ban:before {
+  content: "\e9dc";
+}
+.vi-wallet-cancel:before {
+  content: "\e9dd";
+}
+.vi-wallet-info:before {
+  content: "\e9de";
+}
+.vi-wallet-loaded:before {
+  content: "\e9df";
+}
+.vi-wallet-locked:before {
+  content: "\e9e0";
+}
+.vi-wallet-verified:before {
+  content: "\e9e1";
 }
 .vi-warning-circle:before {
   content: "\e93d";
@@ -482,4 +800,16 @@ i, .icomoon-liga {
 }
 .vi-zendesk:before {
   content: "\e928";
+}
+.vi-zoom-in:before {
+  content: "\e9b5";
+}
+.vi-zoom-in-2:before {
+  content: "\e9b6";
+}
+.vi-zoom-out:before {
+  content: "\e9b7";
+}
+.vi-zoom-out-2:before {
+  content: "\e9b8";
 }

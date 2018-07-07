@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?fiudfy') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?fiudfy') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?fiudfy#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?c2zbnw') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?c2zbnw') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?c2zbnw#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,752 +37,1302 @@ i, .icomoon-liga {
 
 .vi-add-tab {
   &:before {
-    content: $vi-add-tab;
+    content: $vi-add-tab; 
   }
 }
 .vi-airplane-mode {
   &:before {
-    content: $vi-airplane-mode;
+    content: $vi-airplane-mode; 
   }
 }
 .vi-airplane-mode-off {
   &:before {
-    content: $vi-airplane-mode-off;
+    content: $vi-airplane-mode-off; 
   }
 }
 .vi-align-bottom {
   &:before {
-    content: $vi-align-bottom;
+    content: $vi-align-bottom; 
   }
 }
 .vi-align-left {
   &:before {
-    content: $vi-align-left;
+    content: $vi-align-left; 
   }
 }
 .vi-align-right {
   &:before {
-    content: $vi-align-right;
+    content: $vi-align-right; 
   }
 }
 .vi-align-top {
   &:before {
-    content: $vi-align-top;
+    content: $vi-align-top; 
   }
 }
 .vi-amazon {
   &:before {
-    content: $vi-amazon;
+    content: $vi-amazon; 
   }
 }
 .vi-android {
   &:before {
-    content: $vi-android;
+    content: $vi-android; 
   }
 }
 .vi-apple {
   &:before {
-    content: $vi-apple;
+    content: $vi-apple; 
   }
 }
 .vi-atom {
   &:before {
-    content: $vi-atom;
+    content: $vi-atom; 
+  }
+}
+.vi-auction {
+  &:before {
+    content: $vi-auction; 
+  }
+}
+.vi-back {
+  &:before {
+    content: $vi-back; 
+  }
+}
+.vi-back-2 {
+  &:before {
+    content: $vi-back-2; 
+  }
+}
+.vi-back-3 {
+  &:before {
+    content: $vi-back-3; 
+  }
+}
+.vi-back-4 {
+  &:before {
+    content: $vi-back-4; 
+  }
+}
+.vi-back-4-circle {
+  &:before {
+    content: $vi-back-4-circle; 
+  }
+}
+.vi-back-5 {
+  &:before {
+    content: $vi-back-5; 
+  }
+}
+.vi-back-6 {
+  &:before {
+    content: $vi-back-6; 
+  }
+}
+.vi-back-7 {
+  &:before {
+    content: $vi-back-7; 
+  }
+}
+.vi-back-square-4 {
+  &:before {
+    content: $vi-back-square-4; 
   }
 }
 .vi-backward {
   &:before {
-    content: $vi-backward;
+    content: $vi-backward; 
+  }
+}
+.vi-backward-2 {
+  &:before {
+    content: $vi-backward-2; 
+  }
+}
+.vi-bag-remove {
+  &:before {
+    content: $vi-bag-remove; 
+  }
+}
+.vi-barcode-scan {
+  &:before {
+    content: $vi-barcode-scan; 
+  }
+}
+.vi-basket {
+  &:before {
+    content: $vi-basket; 
+  }
+}
+.vi-basket-add {
+  &:before {
+    content: $vi-basket-add; 
+  }
+}
+.vi-basket-checked {
+  &:before {
+    content: $vi-basket-checked; 
+  }
+}
+.vi-basket-close {
+  &:before {
+    content: $vi-basket-close; 
+  }
+}
+.vi-basket-in {
+  &:before {
+    content: $vi-basket-in; 
+  }
+}
+.vi-basket-out {
+  &:before {
+    content: $vi-basket-out; 
+  }
+}
+.vi-basket-remove {
+  &:before {
+    content: $vi-basket-remove; 
   }
 }
 .vi-behance {
   &:before {
-    content: $vi-behance;
+    content: $vi-behance; 
   }
 }
 .vi-bitcoin {
   &:before {
-    content: $vi-bitcoin;
+    content: $vi-bitcoin; 
   }
 }
 .vi-block-circle {
   &:before {
-    content: $vi-block-circle;
+    content: $vi-block-circle; 
   }
 }
 .vi-bootstrap {
   &:before {
-    content: $vi-bootstrap;
+    content: $vi-bootstrap; 
   }
 }
 .vi-brightness-high {
   &:before {
-    content: $vi-brightness-high;
+    content: $vi-brightness-high; 
   }
 }
 .vi-brightness-low {
   &:before {
-    content: $vi-brightness-low;
+    content: $vi-brightness-low; 
+  }
+}
+.vi-cart {
+  &:before {
+    content: $vi-cart; 
+  }
+}
+.vi-cart-add {
+  &:before {
+    content: $vi-cart-add; 
+  }
+}
+.vi-cart-cancel {
+  &:before {
+    content: $vi-cart-cancel; 
+  }
+}
+.vi-cart-checked {
+  &:before {
+    content: $vi-cart-checked; 
+  }
+}
+.vi-cart-in {
+  &:before {
+    content: $vi-cart-in; 
+  }
+}
+.vi-cart-loaded {
+  &:before {
+    content: $vi-cart-loaded; 
+  }
+}
+.vi-cart-out {
+  &:before {
+    content: $vi-cart-out; 
+  }
+}
+.vi-cart-remove {
+  &:before {
+    content: $vi-cart-remove; 
   }
 }
 .vi-check {
   &:before {
-    content: $vi-check;
+    content: $vi-check; 
   }
 }
 .vi-check-all {
   &:before {
-    content: $vi-check-all;
+    content: $vi-check-all; 
   }
 }
 .vi-check-circle {
   &:before {
-    content: $vi-check-circle;
+    content: $vi-check-circle; 
   }
 }
 .vi-check-circle-alt {
   &:before {
-    content: $vi-check-circle-alt;
+    content: $vi-check-circle-alt; 
   }
 }
 .vi-check-square {
   &:before {
-    content: $vi-check-square;
+    content: $vi-check-square; 
   }
 }
 .vi-check-square-alt {
   &:before {
-    content: $vi-check-square-alt;
+    content: $vi-check-square-alt; 
+  }
+}
+.vi-circle-down {
+  &:before {
+    content: $vi-circle-down; 
+  }
+}
+.vi-circle-down-2 {
+  &:before {
+    content: $vi-circle-down-2; 
+  }
+}
+.vi-circle-down-3 {
+  &:before {
+    content: $vi-circle-down-3; 
+  }
+}
+.vi-circle-left {
+  &:before {
+    content: $vi-circle-left; 
+  }
+}
+.vi-circle-left-2 {
+  &:before {
+    content: $vi-circle-left-2; 
+  }
+}
+.vi-circle-left-3 {
+  &:before {
+    content: $vi-circle-left-3; 
+  }
+}
+.vi-circle-right {
+  &:before {
+    content: $vi-circle-right; 
+  }
+}
+.vi-circle-right-2 {
+  &:before {
+    content: $vi-circle-right-2; 
+  }
+}
+.vi-circle-right-3 {
+  &:before {
+    content: $vi-circle-right-3; 
+  }
+}
+.vi-circle-up {
+  &:before {
+    content: $vi-circle-up; 
+  }
+}
+.vi-circle-up-2 {
+  &:before {
+    content: $vi-circle-up-2; 
+  }
+}
+.vi-circle-up-3 {
+  &:before {
+    content: $vi-circle-up-3; 
   }
 }
 .vi-close {
   &:before {
-    content: $vi-close;
+    content: $vi-close; 
   }
 }
 .vi-close-circle {
   &:before {
-    content: $vi-close-circle;
+    content: $vi-close-circle; 
   }
 }
 .vi-close-square {
   &:before {
-    content: $vi-close-square;
+    content: $vi-close-square; 
   }
 }
 .vi-close-square-full {
   &:before {
-    content: $vi-close-square-full;
+    content: $vi-close-square-full; 
   }
 }
 .vi-config {
   &:before {
-    content: $vi-config;
+    content: $vi-config; 
   }
 }
 .vi-config-alt {
   &:before {
-    content: $vi-config-alt;
+    content: $vi-config-alt; 
   }
 }
 .vi-dash {
   &:before {
-    content: $vi-dash;
+    content: $vi-dash; 
+  }
+}
+.vi-delivery {
+  &:before {
+    content: $vi-delivery; 
+  }
+}
+.vi-delivery-2 {
+  &:before {
+    content: $vi-delivery-2; 
+  }
+}
+.vi-delivery-box {
+  &:before {
+    content: $vi-delivery-box; 
+  }
+}
+.vi-delivery-box-2 {
+  &:before {
+    content: $vi-delivery-box-2; 
+  }
+}
+.vi-discount-circle {
+  &:before {
+    content: $vi-discount-circle; 
+  }
+}
+.vi-discount-star {
+  &:before {
+    content: $vi-discount-star; 
   }
 }
 .vi-door-lock {
   &:before {
-    content: $vi-door-lock;
+    content: $vi-door-lock; 
+  }
+}
+.vi-double-arrows-left {
+  &:before {
+    content: $vi-double-arrows-left; 
+  }
+}
+.vi-double-arrows-right {
+  &:before {
+    content: $vi-double-arrows-right; 
+  }
+}
+.vi-down {
+  &:before {
+    content: $vi-down; 
+  }
+}
+.vi-down-2 {
+  &:before {
+    content: $vi-down-2; 
+  }
+}
+.vi-down-3 {
+  &:before {
+    content: $vi-down-3; 
   }
 }
 .vi-download {
   &:before {
-    content: $vi-download;
+    content: $vi-download; 
   }
 }
 .vi-download-alt {
   &:before {
-    content: $vi-download-alt;
+    content: $vi-download-alt; 
   }
 }
 .vi-dribbble {
   &:before {
-    content: $vi-dribbble;
+    content: $vi-dribbble; 
   }
 }
 .vi-dropbox {
   &:before {
-    content: $vi-dropbox;
+    content: $vi-dropbox; 
   }
 }
 .vi-ebay {
   &:before {
-    content: $vi-ebay;
+    content: $vi-ebay; 
   }
 }
 .vi-edit-circle {
   &:before {
-    content: $vi-edit-circle;
+    content: $vi-edit-circle; 
   }
 }
 .vi-edit-square {
   &:before {
-    content: $vi-edit-square;
+    content: $vi-edit-square; 
   }
 }
 .vi-ethereum {
   &:before {
-    content: $vi-ethereum;
-  }
-}
-.vi-exclamation-circle {
-  &:before {
-    content: $vi-exclamation-circle;
+    content: $vi-ethereum; 
   }
 }
 .vi-expand {
   &:before {
-    content: $vi-expand;
+    content: $vi-expand; 
   }
 }
 .vi-expand-2 {
   &:before {
-    content: $vi-expand-2;
+    content: $vi-expand-2; 
   }
 }
 .vi-expand-3 {
   &:before {
-    content: $vi-expand-3;
+    content: $vi-expand-3; 
   }
 }
 .vi-expand-4 {
   &:before {
-    content: $vi-expand-4;
+    content: $vi-expand-4; 
   }
 }
 .vi-expand-horizontal {
   &:before {
-    content: $vi-expand-horizontal;
+    content: $vi-expand-horizontal; 
   }
 }
 .vi-expand-vertical {
   &:before {
-    content: $vi-expand-vertical;
+    content: $vi-expand-vertical; 
   }
 }
 .vi-eye {
   &:before {
-    content: $vi-eye;
+    content: $vi-eye; 
   }
 }
 .vi-eye-off {
   &:before {
-    content: $vi-eye-off;
+    content: $vi-eye-off; 
   }
 }
 .vi-facebook {
   &:before {
-    content: $vi-facebook;
+    content: $vi-facebook; 
   }
 }
 .vi-flash {
   &:before {
-    content: $vi-flash;
+    content: $vi-flash; 
   }
 }
 .vi-flash-2 {
   &:before {
-    content: $vi-flash-2;
+    content: $vi-flash-2; 
   }
 }
 .vi-flash-3 {
   &:before {
-    content: $vi-flash-3;
+    content: $vi-flash-3; 
   }
 }
 .vi-flip-horizontal {
   &:before {
-    content: $vi-flip-horizontal;
+    content: $vi-flip-horizontal; 
   }
 }
 .vi-flip-vertical {
   &:before {
-    content: $vi-flip-vertical;
+    content: $vi-flip-vertical; 
   }
 }
-.vi-foward {
+.vi-fork-arrows {
   &:before {
-    content: $vi-foward;
+    content: $vi-fork-arrows; 
+  }
+}
+.vi-forward {
+  &:before {
+    content: $vi-forward; 
+  }
+}
+.vi-forward-2 {
+  &:before {
+    content: $vi-forward-2; 
   }
 }
 .vi-git {
   &:before {
-    content: $vi-git;
+    content: $vi-git; 
   }
 }
 .vi-github {
   &:before {
-    content: $vi-github;
+    content: $vi-github; 
   }
 }
 .vi-google {
   &:before {
-    content: $vi-google;
+    content: $vi-google; 
   }
 }
 .vi-google+ {
   &:before {
-    content: $vi-google+;
+    content: $vi-google+; 
   }
 }
 .vi-google-play {
   &:before {
-    content: $vi-google-play;
+    content: $vi-google-play; 
   }
 }
 .vi-grid-circles {
   &:before {
-    content: $vi-grid-circles;
+    content: $vi-grid-circles; 
   }
 }
 .vi-grid-squares {
   &:before {
-    content: $vi-grid-squares;
+    content: $vi-grid-squares; 
   }
 }
 .vi-grid-squares-2 {
   &:before {
-    content: $vi-grid-squares-2;
+    content: $vi-grid-squares-2; 
   }
 }
 .vi-hamburger-menu {
   &:before {
-    content: $vi-hamburger-menu;
+    content: $vi-hamburger-menu; 
   }
 }
 .vi-hamburger-menu-compact {
   &:before {
-    content: $vi-hamburger-menu-compact;
+    content: $vi-hamburger-menu-compact; 
+  }
+}
+.vi-handbag {
+  &:before {
+    content: $vi-handbag; 
   }
 }
 .vi-help {
   &:before {
-    content: $vi-help;
+    content: $vi-help; 
   }
 }
 .vi-help-2 {
   &:before {
-    content: $vi-help-2;
+    content: $vi-help-2; 
   }
 }
 .vi-home {
   &:before {
-    content: $vi-home;
+    content: $vi-home; 
   }
 }
 .vi-info-circle {
   &:before {
-    content: $vi-info-circle;
+    content: $vi-info-circle; 
   }
 }
 .vi-inside {
   &:before {
-    content: $vi-inside;
+    content: $vi-inside; 
   }
 }
 .vi-instagram {
   &:before {
-    content: $vi-instagram;
+    content: $vi-instagram; 
   }
 }
 .vi-key {
   &:before {
-    content: $vi-key;
+    content: $vi-key; 
   }
 }
 .vi-key-2 {
   &:before {
-    content: $vi-key-2;
+    content: $vi-key-2; 
   }
 }
 .vi-kickstarter {
   &:before {
-    content: $vi-kickstarter;
+    content: $vi-kickstarter; 
   }
 }
 .vi-label {
   &:before {
-    content: $vi-label;
+    content: $vi-label; 
   }
 }
 .vi-label-cancel {
   &:before {
-    content: $vi-label-cancel;
+    content: $vi-label-cancel; 
   }
 }
 .vi-layout {
   &:before {
-    content: $vi-layout;
+    content: $vi-layout; 
   }
 }
 .vi-layout-2 {
   &:before {
-    content: $vi-layout-2;
+    content: $vi-layout-2; 
   }
 }
 .vi-layout-3 {
   &:before {
-    content: $vi-layout-3;
+    content: $vi-layout-3; 
+  }
+}
+.vi-left {
+  &:before {
+    content: $vi-left; 
+  }
+}
+.vi-left-2 {
+  &:before {
+    content: $vi-left-2; 
+  }
+}
+.vi-left-3 {
+  &:before {
+    content: $vi-left-3; 
   }
 }
 .vi-linkedin {
   &:before {
-    content: $vi-linkedin;
+    content: $vi-linkedin; 
   }
 }
 .vi-list {
   &:before {
-    content: $vi-list;
+    content: $vi-list; 
   }
 }
 .vi-list-2 {
   &:before {
-    content: $vi-list-2;
+    content: $vi-list-2; 
   }
 }
 .vi-list-3 {
   &:before {
-    content: $vi-list-3;
+    content: $vi-list-3; 
   }
 }
 .vi-list-4 {
   &:before {
-    content: $vi-list-4;
+    content: $vi-list-4; 
+  }
+}
+.vi-list-heart {
+  &:before {
+    content: $vi-list-heart; 
   }
 }
 .vi-litecoin {
   &:before {
-    content: $vi-litecoin;
+    content: $vi-litecoin; 
   }
 }
 .vi-lock {
   &:before {
-    content: $vi-lock;
+    content: $vi-lock; 
   }
 }
 .vi-loop {
   &:before {
-    content: $vi-loop;
+    content: $vi-loop; 
   }
 }
 .vi-magic-wand {
   &:before {
-    content: $vi-magic-wand;
+    content: $vi-magic-wand; 
   }
 }
 .vi-magic-wand-2 {
   &:before {
-    content: $vi-magic-wand-2;
+    content: $vi-magic-wand-2; 
   }
 }
 .vi-magnetic {
   &:before {
-    content: $vi-magnetic;
+    content: $vi-magnetic; 
   }
 }
 .vi-magnifier {
   &:before {
-    content: $vi-magnifier;
+    content: $vi-magnifier; 
   }
 }
 .vi-magnifier-2 {
   &:before {
-    content: $vi-magnifier-2;
+    content: $vi-magnifier-2; 
   }
 }
 .vi-mailchimp {
   &:before {
-    content: $vi-mailchimp;
+    content: $vi-mailchimp; 
   }
 }
 .vi-maximize-left {
   &:before {
-    content: $vi-maximize-left;
+    content: $vi-maximize-left; 
   }
 }
 .vi-maximize-right {
   &:before {
-    content: $vi-maximize-right;
+    content: $vi-maximize-right; 
   }
 }
 .vi-medium {
   &:before {
-    content: $vi-medium;
+    content: $vi-medium; 
   }
 }
 .vi-menu-circle-grid {
   &:before {
-    content: $vi-menu-circle-grid;
+    content: $vi-menu-circle-grid; 
   }
 }
 .vi-microsoft {
   &:before {
-    content: $vi-microsoft;
+    content: $vi-microsoft; 
   }
 }
 .vi-minus-circle {
   &:before {
-    content: $vi-minus-circle;
+    content: $vi-minus-circle; 
   }
 }
 .vi-minus-square {
   &:before {
-    content: $vi-minus-square;
+    content: $vi-minus-square; 
   }
 }
 .vi-monero {
   &:before {
-    content: $vi-monero;
+    content: $vi-monero; 
   }
 }
 .vi-more-circle {
   &:before {
-    content: $vi-more-circle;
+    content: $vi-more-circle; 
   }
 }
 .vi-more-circle-horizontal {
   &:before {
-    content: $vi-more-circle-horizontal;
+    content: $vi-more-circle-horizontal; 
   }
 }
 .vi-more-circle-horizontal-filled {
   &:before {
-    content: $vi-more-circle-horizontal-filled;
+    content: $vi-more-circle-horizontal-filled; 
   }
 }
 .vi-more-circle-vertical {
   &:before {
-    content: $vi-more-circle-vertical;
+    content: $vi-more-circle-vertical; 
   }
 }
 .vi-more-circle-vertical-filled {
   &:before {
-    content: $vi-more-circle-vertical-filled;
+    content: $vi-more-circle-vertical-filled; 
   }
 }
 .vi-more-square-horizontal {
   &:before {
-    content: $vi-more-square-horizontal;
+    content: $vi-more-square-horizontal; 
   }
 }
 .vi-more-square-horizontal-filled {
   &:before {
-    content: $vi-more-square-horizontal-filled;
+    content: $vi-more-square-horizontal-filled; 
   }
 }
 .vi-more-square-vertical {
   &:before {
-    content: $vi-more-square-vertical;
+    content: $vi-more-square-vertical; 
   }
 }
 .vi-more-square-vertical-filled {
   &:before {
-    content: $vi-more-square-vertical-filled;
+    content: $vi-more-square-vertical-filled; 
   }
 }
 .vi-nem {
   &:before {
-    content: $vi-nem;
+    content: $vi-nem; 
+  }
+}
+.vi-next {
+  &:before {
+    content: $vi-next; 
+  }
+}
+.vi-next-2 {
+  &:before {
+    content: $vi-next-2; 
   }
 }
 .vi-notification {
   &:before {
-    content: $vi-notification;
+    content: $vi-notification; 
   }
 }
 .vi-notification-add {
   &:before {
-    content: $vi-notification-add;
+    content: $vi-notification-add; 
   }
 }
 .vi-notification-off {
   &:before {
-    content: $vi-notification-off;
+    content: $vi-notification-off; 
   }
 }
 .vi-notification-paused {
   &:before {
-    content: $vi-notification-paused;
+    content: $vi-notification-paused; 
+  }
+}
+.vi-open-sign {
+  &:before {
+    content: $vi-open-sign; 
   }
 }
 .vi-outside {
   &:before {
-    content: $vi-outside;
+    content: $vi-outside; 
   }
 }
 .vi-paper-clip {
   &:before {
-    content: $vi-paper-clip;
+    content: $vi-paper-clip; 
+  }
+}
+.vi-paper-plane {
+  &:before {
+    content: $vi-paper-plane; 
+  }
+}
+.vi-pass {
+  &:before {
+    content: $vi-pass; 
   }
 }
 .vi-paypal {
   &:before {
-    content: $vi-paypal;
+    content: $vi-paypal; 
+  }
+}
+.vi-phone-vibration {
+  &:before {
+    content: $vi-phone-vibration; 
+  }
+}
+.vi-pin {
+  &:before {
+    content: $vi-pin; 
+  }
+}
+.vi-pin-2 {
+  &:before {
+    content: $vi-pin-2; 
+  }
+}
+.vi-pin-3 {
+  &:before {
+    content: $vi-pin-3; 
   }
 }
 .vi-pinterest {
   &:before {
-    content: $vi-pinterest;
+    content: $vi-pinterest; 
   }
 }
 .vi-playstation {
   &:before {
-    content: $vi-playstation;
+    content: $vi-playstation; 
   }
 }
 .vi-plus {
   &:before {
-    content: $vi-plus;
+    content: $vi-plus; 
   }
 }
 .vi-plus-circle {
   &:before {
-    content: $vi-plus-circle;
+    content: $vi-plus-circle; 
   }
 }
 .vi-plus-square {
   &:before {
-    content: $vi-plus-square;
+    content: $vi-plus-square; 
   }
 }
 .vi-power {
   &:before {
-    content: $vi-power;
+    content: $vi-power; 
+  }
+}
+.vi-price-tag {
+  &:before {
+    content: $vi-price-tag; 
+  }
+}
+.vi-qr-code {
+  &:before {
+    content: $vi-qr-code; 
+  }
+}
+.vi-question-circle {
+  &:before {
+    content: $vi-question-circle; 
   }
 }
 .vi-react {
   &:before {
-    content: $vi-react;
+    content: $vi-react; 
   }
 }
 .vi-reddit {
   &:before {
-    content: $vi-reddit;
+    content: $vi-reddit; 
+  }
+}
+.vi-refresh {
+  &:before {
+    content: $vi-refresh; 
+  }
+}
+.vi-refresh-2 {
+  &:before {
+    content: $vi-refresh-2; 
+  }
+}
+.vi-refresh-warning {
+  &:before {
+    content: $vi-refresh-warning; 
+  }
+}
+.vi-reload {
+  &:before {
+    content: $vi-reload; 
+  }
+}
+.vi-reload-checked {
+  &:before {
+    content: $vi-reload-checked; 
+  }
+}
+.vi-remove-tab {
+  &:before {
+    content: $vi-remove-tab; 
   }
 }
 .vi-ripple {
   &:before {
-    content: $vi-ripple;
+    content: $vi-ripple; 
+  }
+}
+.vi-scroll {
+  &:before {
+    content: $vi-scroll; 
+  }
+}
+.vi-search-history {
+  &:before {
+    content: $vi-search-history; 
+  }
+}
+.vi-settings {
+  &:before {
+    content: $vi-settings; 
+  }
+}
+.vi-share {
+  &:before {
+    content: $vi-share; 
+  }
+}
+.vi-share-2 {
+  &:before {
+    content: $vi-share-2; 
+  }
+}
+.vi-share-3 {
+  &:before {
+    content: $vi-share-3; 
+  }
+}
+.vi-share-4 {
+  &:before {
+    content: $vi-share-4; 
+  }
+}
+.vi-shopping-tag {
+  &:before {
+    content: $vi-shopping-tag; 
+  }
+}
+.vi-shopping-tags {
+  &:before {
+    content: $vi-shopping-tags; 
   }
 }
 .vi-skype {
   &:before {
-    content: $vi-skype;
+    content: $vi-skype; 
   }
 }
 .vi-slack {
   &:before {
-    content: $vi-slack;
+    content: $vi-slack; 
   }
 }
 .vi-snapchat {
   &:before {
-    content: $vi-snapchat;
+    content: $vi-snapchat; 
   }
 }
 .vi-spotify {
   &:before {
-    content: $vi-spotify;
+    content: $vi-spotify; 
   }
 }
 .vi-steam {
   &:before {
-    content: $vi-steam;
+    content: $vi-steam; 
   }
 }
 .vi-stripe {
   &:before {
-    content: $vi-stripe;
+    content: $vi-stripe; 
+  }
+}
+.vi-swap-horizontal {
+  &:before {
+    content: $vi-swap-horizontal; 
+  }
+}
+.vi-swap-vertical {
+  &:before {
+    content: $vi-swap-vertical; 
+  }
+}
+.vi-switch-off {
+  &:before {
+    content: $vi-switch-off; 
+  }
+}
+.vi-switch-on {
+  &:before {
+    content: $vi-switch-on; 
+  }
+}
+.vi-switches {
+  &:before {
+    content: $vi-switches; 
+  }
+}
+.vi-switches-2 {
+  &:before {
+    content: $vi-switches-2; 
+  }
+}
+.vi-tabs {
+  &:before {
+    content: $vi-tabs; 
+  }
+}
+.vi-tabs-2 {
+  &:before {
+    content: $vi-tabs-2; 
   }
 }
 .vi-tesla {
   &:before {
-    content: $vi-tesla;
+    content: $vi-tesla; 
   }
 }
 .vi-tether {
   &:before {
-    content: $vi-tether;
+    content: $vi-tether; 
+  }
+}
+.vi-ticket {
+  &:before {
+    content: $vi-ticket; 
+  }
+}
+.vi-trash {
+  &:before {
+    content: $vi-trash; 
+  }
+}
+.vi-trash-recycle {
+  &:before {
+    content: $vi-trash-recycle; 
   }
 }
 .vi-tripadvisor {
   &:before {
-    content: $vi-tripadvisor;
+    content: $vi-tripadvisor; 
   }
 }
 .vi-twitch {
   &:before {
-    content: $vi-twitch;
+    content: $vi-twitch; 
   }
 }
 .vi-twitter {
   &:before {
-    content: $vi-twitter;
+    content: $vi-twitter; 
   }
 }
 .vi-unlock {
   &:before {
-    content: $vi-unlock;
+    content: $vi-unlock; 
+  }
+}
+.vi-upload {
+  &:before {
+    content: $vi-upload; 
+  }
+}
+.vi-upload-2 {
+  &:before {
+    content: $vi-upload-2; 
   }
 }
 .vi-vimeo {
   &:before {
-    content: $vi-vimeo;
+    content: $vi-vimeo; 
   }
 }
 .vi-visualmodo {
   &:before {
-    content: $vi-visualmodo;
+    content: $vi-visualmodo; 
+  }
+}
+.vi-wallet {
+  &:before {
+    content: $vi-wallet; 
+  }
+}
+.vi-wallet-2 {
+  &:before {
+    content: $vi-wallet-2; 
+  }
+}
+.vi-wallet-add {
+  &:before {
+    content: $vi-wallet-add; 
+  }
+}
+.vi-wallet-ban {
+  &:before {
+    content: $vi-wallet-ban; 
+  }
+}
+.vi-wallet-cancel {
+  &:before {
+    content: $vi-wallet-cancel; 
+  }
+}
+.vi-wallet-info {
+  &:before {
+    content: $vi-wallet-info; 
+  }
+}
+.vi-wallet-loaded {
+  &:before {
+    content: $vi-wallet-loaded; 
+  }
+}
+.vi-wallet-locked {
+  &:before {
+    content: $vi-wallet-locked; 
+  }
+}
+.vi-wallet-verified {
+  &:before {
+    content: $vi-wallet-verified; 
   }
 }
 .vi-warning-circle {
   &:before {
-    content: $vi-warning-circle;
+    content: $vi-warning-circle; 
   }
 }
 .vi-warning-triangle {
   &:before {
-    content: $vi-warning-triangle;
+    content: $vi-warning-triangle; 
   }
 }
 .vi-whatsapp {
   &:before {
-    content: $vi-whatsapp;
+    content: $vi-whatsapp; 
   }
 }
 .vi-wikipedia {
   &:before {
-    content: $vi-wikipedia;
+    content: $vi-wikipedia; 
   }
 }
 .vi-wordpress {
   &:before {
-    content: $vi-wordpress;
+    content: $vi-wordpress; 
   }
 }
 .vi-xbox {
   &:before {
-    content: $vi-xbox;
+    content: $vi-xbox; 
   }
 }
 .vi-youtube {
   &:before {
-    content: $vi-youtube;
+    content: $vi-youtube; 
   }
 }
 .vi-zendesk {
   &:before {
-    content: $vi-zendesk;
+    content: $vi-zendesk; 
+  }
+}
+.vi-zoom-in {
+  &:before {
+    content: $vi-zoom-in; 
+  }
+}
+.vi-zoom-in-2 {
+  &:before {
+    content: $vi-zoom-in-2; 
+  }
+}
+.vi-zoom-out {
+  &:before {
+    content: $vi-zoom-out; 
+  }
+}
+.vi-zoom-out-2 {
+  &:before {
+    content: $vi-zoom-out-2; 
   }
 }
 
