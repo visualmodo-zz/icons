@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?c2zbnw') format('truetype'),
-    url('fonts/vi.woff?c2zbnw') format('woff'),
-    url('fonts/vi.svg?c2zbnw#vi') format('svg');
+    url('fonts/vi.ttf?m6by7f') format('truetype'),
+    url('fonts/vi.woff?m6by7f') format('woff'),
+    url('fonts/vi.svg?m6by7f#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,6 +33,33 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-voicemail:before {
+  content: "\ea70";
+}
+.vi-telephone:before {
+  content: "\ea6f";
+}
+.vi-q-and-a:before {
+  content: "\ea6e";
+}
+.vi-phone-ring:before {
+  content: "\ea6d";
+}
+.vi-phone-message-3:before {
+  content: "\ea6c";
+}
+.vi-phone-message-2:before {
+  content: "\ea6b";
+}
+.vi-phone-message:before {
+  content: "\ea6a";
+}
+.vi-phone-contacts:before {
+  content: "\ea69";
+}
+.vi-phone-call-out:before {
+  content: "\ea68";
+}
 .vi-add-tab:before {
   content: "\e949";
 }
@@ -59,6 +86,9 @@ i, .icomoon-liga {
 }
 .vi-android:before {
   content: "\e90a";
+}
+.vi-answer:before {
+  content: "\ea11";
 }
 .vi-apple:before {
   content: "\e91a";
@@ -147,6 +177,33 @@ i, .icomoon-liga {
 .vi-brightness-low:before {
   content: "\e952";
 }
+.vi-call:before {
+  content: "\ea12";
+}
+.vi-call-back:before {
+  content: "\ea13";
+}
+.vi-call-block:before {
+  content: "\ea14";
+}
+.vi-call-end:before {
+  content: "\ea15";
+}
+.vi-call-hold:before {
+  content: "\ea16";
+}
+.vi-call-in:before {
+  content: "\ea17";
+}
+.vi-call-logs:before {
+  content: "\ea18";
+}
+.vi-call-off:before {
+  content: "\ea19";
+}
+.vi-call-out:before {
+  content: "\ea1a";
+}
 .vi-cart:before {
   content: "\e9c3";
 }
@@ -170,6 +227,15 @@ i, .icomoon-liga {
 }
 .vi-cart-remove:before {
   content: "\e9ca";
+}
+.vi-chat:before {
+  content: "\ea1b";
+}
+.vi-chat-2:before {
+  content: "\ea1c";
+}
+.vi-chat-3:before {
+  content: "\ea1d";
 }
 .vi-check:before {
   content: "\e935";
@@ -237,6 +303,42 @@ i, .icomoon-liga {
 .vi-close-square-full:before {
   content: "\e945";
 }
+.vi-comment:before {
+  content: "\ea1e";
+}
+.vi-comment-2:before {
+  content: "\ea1f";
+}
+.vi-comment-2-hashtag:before {
+  content: "\ea20";
+}
+.vi-comment-2-quote:before {
+  content: "\ea21";
+}
+.vi-comment-2-smile:before {
+  content: "\ea22";
+}
+.vi-comment-2-write:before {
+  content: "\ea23";
+}
+.vi-comment-3:before {
+  content: "\ea24";
+}
+.vi-comment-3-write:before {
+  content: "\ea25";
+}
+.vi-comment-like:before {
+  content: "\ea26";
+}
+.vi-comments:before {
+  content: "\ea27";
+}
+.vi-comments-2:before {
+  content: "\ea28";
+}
+.vi-comments-3:before {
+  content: "\ea29";
+}
 .vi-config:before {
   content: "\e953";
 }
@@ -302,6 +404,75 @@ i, .icomoon-liga {
 }
 .vi-edit-square:before {
   content: "\e958";
+}
+.vi-email:before {
+  content: "\ea2a";
+}
+.vi-email-2-at:before {
+  content: "\ea2b";
+}
+.vi-email-2-letter:before {
+  content: "\ea2c";
+}
+.vi-email-2-open:before {
+  content: "\ea2d";
+}
+.vi-email-2-search:before {
+  content: "\ea2e";
+}
+.vi-email-at:before {
+  content: "\ea2f";
+}
+.vi-email-ban:before {
+  content: "\ea30";
+}
+.vi-email-check:before {
+  content: "\ea31";
+}
+.vi-email-close:before {
+  content: "\ea32";
+}
+.vi-email-delete:before {
+  content: "\ea33";
+}
+.vi-email-edit:before {
+  content: "\ea34";
+}
+.vi-email-forward:before {
+  content: "\ea35";
+}
+.vi-email-in:before {
+  content: "\ea36";
+}
+.vi-email-letter:before {
+  content: "\ea37";
+}
+.vi-email-locked:before {
+  content: "\ea38";
+}
+.vi-email-new:before {
+  content: "\ea39";
+}
+.vi-email-open:before {
+  content: "\ea3a";
+}
+.vi-email-out:before {
+  content: "\ea3b";
+}
+.vi-email-refresh:before {
+  content: "\ea3c";
+}
+.vi-email-reply:before {
+  content: "\ea3d";
+}
+.vi-email-search:before {
+  content: "\ea3e";
+}
+.vi-email-send:before {
+  content: "\ea3f";
+}
+.vi-email-star:before {
+  content: "\ea40";
 }
 .vi-ethereum:before {
   content: "\e92c";
@@ -399,6 +570,15 @@ i, .icomoon-liga {
 .vi-home:before {
   content: "\e96f";
 }
+.vi-inbox:before {
+  content: "\ea41";
+}
+.vi-inbox-empty:before {
+  content: "\ea42";
+}
+.vi-inbox-full:before {
+  content: "\ea43";
+}
 .vi-info-circle:before {
   content: "\e93f";
 }
@@ -440,6 +620,12 @@ i, .icomoon-liga {
 }
 .vi-left-3:before {
   content: "\ea01";
+}
+.vi-letter:before {
+  content: "\ea44";
+}
+.vi-letters:before {
+  content: "\ea45";
 }
 .vi-linkedin:before {
   content: "\e924";
@@ -495,8 +681,101 @@ i, .icomoon-liga {
 .vi-medium:before {
   content: "\e904";
 }
+.vi-megaphone:before {
+  content: "\ea46";
+}
+.vi-megaphone-2:before {
+  content: "\ea47";
+}
 .vi-menu-circle-grid:before {
   content: "\e986";
+}
+.vi-message:before {
+  content: "\ea48";
+}
+.vi-message-2:before {
+  content: "\ea49";
+}
+.vi-message-2-alert:before {
+  content: "\ea4a";
+}
+.vi-message-2-ask:before {
+  content: "\ea4b";
+}
+.vi-message-2-heart:before {
+  content: "\ea4c";
+}
+.vi-message-2-like:before {
+  content: "\ea4d";
+}
+.vi-message-2-pause:before {
+  content: "\ea4f";
+}
+.vi-message-2-tone:before {
+  content: "\ea4e";
+}
+.vi-message-2-write:before {
+  content: "\ea50";
+}
+.vi-message-3:before {
+  content: "\ea51";
+}
+.vi-message-3-alert:before {
+  content: "\ea52";
+}
+.vi-message-3-ask:before {
+  content: "\ea53";
+}
+.vi-message-3-hashtag:before {
+  content: "\ea54";
+}
+.vi-message-3-heart:before {
+  content: "\ea55";
+}
+.vi-message-3-like:before {
+  content: "\ea56";
+}
+.vi-message-3-music-tone:before {
+  content: "\ea57";
+}
+.vi-message-3-pause:before {
+  content: "\ea58";
+}
+.vi-message-3-quote:before {
+  content: "\ea59";
+}
+.vi-message-3-smile:before {
+  content: "\ea5a";
+}
+.vi-message-3-write:before {
+  content: "\ea5b";
+}
+.vi-message-alert:before {
+  content: "\ea5c";
+}
+.vi-message-ask:before {
+  content: "\ea5d";
+}
+.vi-message-hashtag:before {
+  content: "\ea5e";
+}
+.vi-message-heart:before {
+  content: "\ea5f";
+}
+.vi-message-music-tone:before {
+  content: "\ea60";
+}
+.vi-message-pause:before {
+  content: "\ea61";
+}
+.vi-message-quote:before {
+  content: "\ea62";
+}
+.vi-message-smile:before {
+  content: "\ea63";
+}
+.vi-message-write:before {
+  content: "\ea64";
 }
 .vi-microsoft:before {
   content: "\e91b";
@@ -546,6 +825,21 @@ i, .icomoon-liga {
 .vi-next-2:before {
   content: "\ea03";
 }
+.vi-next-3:before {
+  content: "\ea04";
+}
+.vi-next-4:before {
+  content: "\ea05";
+}
+.vi-next-5:before {
+  content: "\ea06";
+}
+.vi-next-6:before {
+  content: "\ea07";
+}
+.vi-next-7:before {
+  content: "\ea08";
+}
 .vi-notification:before {
   content: "\e990";
 }
@@ -561,6 +855,9 @@ i, .icomoon-liga {
 .vi-open-sign:before {
   content: "\e9d3";
 }
+.vi-outbox:before {
+  content: "\ea65";
+}
 .vi-outside:before {
   content: "\e994";
 }
@@ -570,11 +867,17 @@ i, .icomoon-liga {
 .vi-paper-plane:before {
   content: "\e996";
 }
+.vi-paper-plane-2:before {
+  content: "\ea66";
+}
 .vi-pass:before {
   content: "\e997";
 }
 .vi-paypal:before {
   content: "\e905";
+}
+.vi-phone-call-in:before {
+  content: "\ea67";
 }
 .vi-phone-vibration:before {
   content: "\e998";
@@ -639,8 +942,23 @@ i, .icomoon-liga {
 .vi-remove-tab:before {
   content: "\e9a1";
 }
+.vi-right:before {
+  content: "\ea09";
+}
+.vi-right-2:before {
+  content: "\ea0a";
+}
+.vi-right-3:before {
+  content: "\ea0b";
+}
 .vi-ripple:before {
   content: "\e92f";
+}
+.vi-s-arrow:before {
+  content: "\ea0c";
+}
+.vi-s-arrow-2:before {
+  content: "\ea0d";
 }
 .vi-scroll:before {
   content: "\e9a2";
@@ -737,6 +1055,15 @@ i, .icomoon-liga {
 }
 .vi-unlock:before {
   content: "\e97d";
+}
+.vi-up:before {
+  content: "\ea0e";
+}
+.vi-up-2:before {
+  content: "\ea0f";
+}
+.vi-up-3:before {
+  content: "\ea10";
 }
 .vi-upload:before {
   content: "\e9b3";

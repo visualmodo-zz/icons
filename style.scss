@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('#{$icomoon-font-path}/vi.ttf?c2zbnw') format('truetype'),
-    url('#{$icomoon-font-path}/vi.woff?c2zbnw') format('woff'),
-    url('#{$icomoon-font-path}/vi.svg?c2zbnw#vi') format('svg');
+    url('#{$icomoon-font-path}/vi.ttf?m6by7f') format('truetype'),
+    url('#{$icomoon-font-path}/vi.woff?m6by7f') format('woff'),
+    url('#{$icomoon-font-path}/vi.svg?m6by7f#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,6 +35,51 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-voicemail {
+  &:before {
+    content: $vi-voicemail; 
+  }
+}
+.vi-telephone {
+  &:before {
+    content: $vi-telephone; 
+  }
+}
+.vi-q-and-a {
+  &:before {
+    content: $vi-q-and-a; 
+  }
+}
+.vi-phone-ring {
+  &:before {
+    content: $vi-phone-ring; 
+  }
+}
+.vi-phone-message-3 {
+  &:before {
+    content: $vi-phone-message-3; 
+  }
+}
+.vi-phone-message-2 {
+  &:before {
+    content: $vi-phone-message-2; 
+  }
+}
+.vi-phone-message {
+  &:before {
+    content: $vi-phone-message; 
+  }
+}
+.vi-phone-contacts {
+  &:before {
+    content: $vi-phone-contacts; 
+  }
+}
+.vi-phone-call-out {
+  &:before {
+    content: $vi-phone-call-out; 
+  }
+}
 .vi-add-tab {
   &:before {
     content: $vi-add-tab; 
@@ -78,6 +123,11 @@ i, .icomoon-liga {
 .vi-android {
   &:before {
     content: $vi-android; 
+  }
+}
+.vi-answer {
+  &:before {
+    content: $vi-answer; 
   }
 }
 .vi-apple {
@@ -225,6 +275,51 @@ i, .icomoon-liga {
     content: $vi-brightness-low; 
   }
 }
+.vi-call {
+  &:before {
+    content: $vi-call; 
+  }
+}
+.vi-call-back {
+  &:before {
+    content: $vi-call-back; 
+  }
+}
+.vi-call-block {
+  &:before {
+    content: $vi-call-block; 
+  }
+}
+.vi-call-end {
+  &:before {
+    content: $vi-call-end; 
+  }
+}
+.vi-call-hold {
+  &:before {
+    content: $vi-call-hold; 
+  }
+}
+.vi-call-in {
+  &:before {
+    content: $vi-call-in; 
+  }
+}
+.vi-call-logs {
+  &:before {
+    content: $vi-call-logs; 
+  }
+}
+.vi-call-off {
+  &:before {
+    content: $vi-call-off; 
+  }
+}
+.vi-call-out {
+  &:before {
+    content: $vi-call-out; 
+  }
+}
 .vi-cart {
   &:before {
     content: $vi-cart; 
@@ -263,6 +358,21 @@ i, .icomoon-liga {
 .vi-cart-remove {
   &:before {
     content: $vi-cart-remove; 
+  }
+}
+.vi-chat {
+  &:before {
+    content: $vi-chat; 
+  }
+}
+.vi-chat-2 {
+  &:before {
+    content: $vi-chat-2; 
+  }
+}
+.vi-chat-3 {
+  &:before {
+    content: $vi-chat-3; 
   }
 }
 .vi-check {
@@ -375,6 +485,66 @@ i, .icomoon-liga {
     content: $vi-close-square-full; 
   }
 }
+.vi-comment {
+  &:before {
+    content: $vi-comment; 
+  }
+}
+.vi-comment-2 {
+  &:before {
+    content: $vi-comment-2; 
+  }
+}
+.vi-comment-2-hashtag {
+  &:before {
+    content: $vi-comment-2-hashtag; 
+  }
+}
+.vi-comment-2-quote {
+  &:before {
+    content: $vi-comment-2-quote; 
+  }
+}
+.vi-comment-2-smile {
+  &:before {
+    content: $vi-comment-2-smile; 
+  }
+}
+.vi-comment-2-write {
+  &:before {
+    content: $vi-comment-2-write; 
+  }
+}
+.vi-comment-3 {
+  &:before {
+    content: $vi-comment-3; 
+  }
+}
+.vi-comment-3-write {
+  &:before {
+    content: $vi-comment-3-write; 
+  }
+}
+.vi-comment-like {
+  &:before {
+    content: $vi-comment-like; 
+  }
+}
+.vi-comments {
+  &:before {
+    content: $vi-comments; 
+  }
+}
+.vi-comments-2 {
+  &:before {
+    content: $vi-comments-2; 
+  }
+}
+.vi-comments-3 {
+  &:before {
+    content: $vi-comments-3; 
+  }
+}
 .vi-config {
   &:before {
     content: $vi-config; 
@@ -483,6 +653,121 @@ i, .icomoon-liga {
 .vi-edit-square {
   &:before {
     content: $vi-edit-square; 
+  }
+}
+.vi-email {
+  &:before {
+    content: $vi-email; 
+  }
+}
+.vi-email-2-at {
+  &:before {
+    content: $vi-email-2-at; 
+  }
+}
+.vi-email-2-letter {
+  &:before {
+    content: $vi-email-2-letter; 
+  }
+}
+.vi-email-2-open {
+  &:before {
+    content: $vi-email-2-open; 
+  }
+}
+.vi-email-2-search {
+  &:before {
+    content: $vi-email-2-search; 
+  }
+}
+.vi-email-at {
+  &:before {
+    content: $vi-email-at; 
+  }
+}
+.vi-email-ban {
+  &:before {
+    content: $vi-email-ban; 
+  }
+}
+.vi-email-check {
+  &:before {
+    content: $vi-email-check; 
+  }
+}
+.vi-email-close {
+  &:before {
+    content: $vi-email-close; 
+  }
+}
+.vi-email-delete {
+  &:before {
+    content: $vi-email-delete; 
+  }
+}
+.vi-email-edit {
+  &:before {
+    content: $vi-email-edit; 
+  }
+}
+.vi-email-forward {
+  &:before {
+    content: $vi-email-forward; 
+  }
+}
+.vi-email-in {
+  &:before {
+    content: $vi-email-in; 
+  }
+}
+.vi-email-letter {
+  &:before {
+    content: $vi-email-letter; 
+  }
+}
+.vi-email-locked {
+  &:before {
+    content: $vi-email-locked; 
+  }
+}
+.vi-email-new {
+  &:before {
+    content: $vi-email-new; 
+  }
+}
+.vi-email-open {
+  &:before {
+    content: $vi-email-open; 
+  }
+}
+.vi-email-out {
+  &:before {
+    content: $vi-email-out; 
+  }
+}
+.vi-email-refresh {
+  &:before {
+    content: $vi-email-refresh; 
+  }
+}
+.vi-email-reply {
+  &:before {
+    content: $vi-email-reply; 
+  }
+}
+.vi-email-search {
+  &:before {
+    content: $vi-email-search; 
+  }
+}
+.vi-email-send {
+  &:before {
+    content: $vi-email-send; 
+  }
+}
+.vi-email-star {
+  &:before {
+    content: $vi-email-star; 
   }
 }
 .vi-ethereum {
@@ -645,6 +930,21 @@ i, .icomoon-liga {
     content: $vi-home; 
   }
 }
+.vi-inbox {
+  &:before {
+    content: $vi-inbox; 
+  }
+}
+.vi-inbox-empty {
+  &:before {
+    content: $vi-inbox-empty; 
+  }
+}
+.vi-inbox-full {
+  &:before {
+    content: $vi-inbox-full; 
+  }
+}
 .vi-info-circle {
   &:before {
     content: $vi-info-circle; 
@@ -713,6 +1013,16 @@ i, .icomoon-liga {
 .vi-left-3 {
   &:before {
     content: $vi-left-3; 
+  }
+}
+.vi-letter {
+  &:before {
+    content: $vi-letter; 
+  }
+}
+.vi-letters {
+  &:before {
+    content: $vi-letters; 
   }
 }
 .vi-linkedin {
@@ -805,9 +1115,164 @@ i, .icomoon-liga {
     content: $vi-medium; 
   }
 }
+.vi-megaphone {
+  &:before {
+    content: $vi-megaphone; 
+  }
+}
+.vi-megaphone-2 {
+  &:before {
+    content: $vi-megaphone-2; 
+  }
+}
 .vi-menu-circle-grid {
   &:before {
     content: $vi-menu-circle-grid; 
+  }
+}
+.vi-message {
+  &:before {
+    content: $vi-message; 
+  }
+}
+.vi-message-2 {
+  &:before {
+    content: $vi-message-2; 
+  }
+}
+.vi-message-2-alert {
+  &:before {
+    content: $vi-message-2-alert; 
+  }
+}
+.vi-message-2-ask {
+  &:before {
+    content: $vi-message-2-ask; 
+  }
+}
+.vi-message-2-heart {
+  &:before {
+    content: $vi-message-2-heart; 
+  }
+}
+.vi-message-2-like {
+  &:before {
+    content: $vi-message-2-like; 
+  }
+}
+.vi-message-2-pause {
+  &:before {
+    content: $vi-message-2-pause; 
+  }
+}
+.vi-message-2-tone {
+  &:before {
+    content: $vi-message-2-tone; 
+  }
+}
+.vi-message-2-write {
+  &:before {
+    content: $vi-message-2-write; 
+  }
+}
+.vi-message-3 {
+  &:before {
+    content: $vi-message-3; 
+  }
+}
+.vi-message-3-alert {
+  &:before {
+    content: $vi-message-3-alert; 
+  }
+}
+.vi-message-3-ask {
+  &:before {
+    content: $vi-message-3-ask; 
+  }
+}
+.vi-message-3-hashtag {
+  &:before {
+    content: $vi-message-3-hashtag; 
+  }
+}
+.vi-message-3-heart {
+  &:before {
+    content: $vi-message-3-heart; 
+  }
+}
+.vi-message-3-like {
+  &:before {
+    content: $vi-message-3-like; 
+  }
+}
+.vi-message-3-music-tone {
+  &:before {
+    content: $vi-message-3-music-tone; 
+  }
+}
+.vi-message-3-pause {
+  &:before {
+    content: $vi-message-3-pause; 
+  }
+}
+.vi-message-3-quote {
+  &:before {
+    content: $vi-message-3-quote; 
+  }
+}
+.vi-message-3-smile {
+  &:before {
+    content: $vi-message-3-smile; 
+  }
+}
+.vi-message-3-write {
+  &:before {
+    content: $vi-message-3-write; 
+  }
+}
+.vi-message-alert {
+  &:before {
+    content: $vi-message-alert; 
+  }
+}
+.vi-message-ask {
+  &:before {
+    content: $vi-message-ask; 
+  }
+}
+.vi-message-hashtag {
+  &:before {
+    content: $vi-message-hashtag; 
+  }
+}
+.vi-message-heart {
+  &:before {
+    content: $vi-message-heart; 
+  }
+}
+.vi-message-music-tone {
+  &:before {
+    content: $vi-message-music-tone; 
+  }
+}
+.vi-message-pause {
+  &:before {
+    content: $vi-message-pause; 
+  }
+}
+.vi-message-quote {
+  &:before {
+    content: $vi-message-quote; 
+  }
+}
+.vi-message-smile {
+  &:before {
+    content: $vi-message-smile; 
+  }
+}
+.vi-message-write {
+  &:before {
+    content: $vi-message-write; 
   }
 }
 .vi-microsoft {
@@ -890,6 +1355,31 @@ i, .icomoon-liga {
     content: $vi-next-2; 
   }
 }
+.vi-next-3 {
+  &:before {
+    content: $vi-next-3; 
+  }
+}
+.vi-next-4 {
+  &:before {
+    content: $vi-next-4; 
+  }
+}
+.vi-next-5 {
+  &:before {
+    content: $vi-next-5; 
+  }
+}
+.vi-next-6 {
+  &:before {
+    content: $vi-next-6; 
+  }
+}
+.vi-next-7 {
+  &:before {
+    content: $vi-next-7; 
+  }
+}
 .vi-notification {
   &:before {
     content: $vi-notification; 
@@ -915,6 +1405,11 @@ i, .icomoon-liga {
     content: $vi-open-sign; 
   }
 }
+.vi-outbox {
+  &:before {
+    content: $vi-outbox; 
+  }
+}
 .vi-outside {
   &:before {
     content: $vi-outside; 
@@ -930,6 +1425,11 @@ i, .icomoon-liga {
     content: $vi-paper-plane; 
   }
 }
+.vi-paper-plane-2 {
+  &:before {
+    content: $vi-paper-plane-2; 
+  }
+}
 .vi-pass {
   &:before {
     content: $vi-pass; 
@@ -938,6 +1438,11 @@ i, .icomoon-liga {
 .vi-paypal {
   &:before {
     content: $vi-paypal; 
+  }
+}
+.vi-phone-call-in {
+  &:before {
+    content: $vi-phone-call-in; 
   }
 }
 .vi-phone-vibration {
@@ -1045,9 +1550,34 @@ i, .icomoon-liga {
     content: $vi-remove-tab; 
   }
 }
+.vi-right {
+  &:before {
+    content: $vi-right; 
+  }
+}
+.vi-right-2 {
+  &:before {
+    content: $vi-right-2; 
+  }
+}
+.vi-right-3 {
+  &:before {
+    content: $vi-right-3; 
+  }
+}
 .vi-ripple {
   &:before {
     content: $vi-ripple; 
+  }
+}
+.vi-s-arrow {
+  &:before {
+    content: $vi-s-arrow; 
+  }
+}
+.vi-s-arrow-2 {
+  &:before {
+    content: $vi-s-arrow-2; 
   }
 }
 .vi-scroll {
@@ -1208,6 +1738,21 @@ i, .icomoon-liga {
 .vi-unlock {
   &:before {
     content: $vi-unlock; 
+  }
+}
+.vi-up {
+  &:before {
+    content: $vi-up; 
+  }
+}
+.vi-up-2 {
+  &:before {
+    content: $vi-up-2; 
+  }
+}
+.vi-up-3 {
+  &:before {
+    content: $vi-up-3; 
   }
 }
 .vi-upload {
