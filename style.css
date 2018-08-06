@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?m6by7f') format('truetype'),
-    url('fonts/vi.woff?m6by7f') format('woff'),
-    url('fonts/vi.svg?m6by7f#vi') format('svg');
+    url('fonts/vi.ttf?wuom4n') format('truetype'),
+    url('fonts/vi.woff?wuom4n') format('woff'),
+    url('fonts/vi.svg?wuom4n#vi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,32 +33,89 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.vi-voicemail:before {
-  content: "\ea70";
+.vi-folder-warning:before {
+  content: "\eab0";
 }
-.vi-telephone:before {
-  content: "\ea6f";
+.vi-folder-video:before {
+  content: "\eaaf";
 }
-.vi-q-and-a:before {
-  content: "\ea6e";
+.vi-folder-upload:before {
+  content: "\eaae";
 }
-.vi-phone-ring:before {
-  content: "\ea6d";
+.vi-folder-text:before {
+  content: "\eaad";
 }
-.vi-phone-message-3:before {
-  content: "\ea6c";
+.vi-folder-sync:before {
+  content: "\eaac";
 }
-.vi-phone-message-2:before {
-  content: "\ea6b";
+.vi-folder-star:before {
+  content: "\eaab";
 }
-.vi-phone-message:before {
-  content: "\ea6a";
+.vi-folder-share:before {
+  content: "\eaaa";
 }
-.vi-phone-contacts:before {
-  content: "\ea69";
+.vi-folder-search:before {
+  content: "\eaa9";
 }
-.vi-phone-call-out:before {
-  content: "\ea68";
+.vi-folder-open:before {
+  content: "\eaa8";
+}
+.vi-folder-new:before {
+  content: "\eaa7";
+}
+.vi-folder-locked:before {
+  content: "\eaa6";
+}
+.vi-folder-linked:before {
+  content: "\eaa5";
+}
+.vi-folder-info:before {
+  content: "\eaa4";
+}
+.vi-folder-import:before {
+  content: "\eaa3";
+}
+.vi-folder-image:before {
+  content: "\eaa2";
+}
+.vi-folder-file:before {
+  content: "\eaa1";
+}
+.vi-folder-export:before {
+  content: "\eaa0";
+}
+.vi-folder-exchange:before {
+  content: "\ea9f";
+}
+.vi-folder-download:before {
+  content: "\ea9e";
+}
+.vi-folder-delete:before {
+  content: "\ea9d";
+}
+.vi-folder-copy:before {
+  content: "\ea9c";
+}
+.vi-folder-code:before {
+  content: "\ea9b";
+}
+.vi-folder-check:before {
+  content: "\ea9a";
+}
+.vi-folder-bookmark:before {
+  content: "\ea99";
+}
+.vi-folder-backup:before {
+  content: "\ea98";
+}
+.vi-folder-audio:before {
+  content: "\ea97";
+}
+.vi-folder-archive:before {
+  content: "\ea96";
+}
+.vi-folder:before {
+  content: "\ea95";
 }
 .vi-add-tab:before {
   content: "\e949";
@@ -504,6 +561,114 @@ i, .icomoon-liga {
 .vi-facebook:before {
   content: "\e902";
 }
+.vi-file:before {
+  content: "\ea71";
+}
+.vi-file-archive:before {
+  content: "\ea72";
+}
+.vi-file-audio:before {
+  content: "\ea73";
+}
+.vi-file-backup:before {
+  content: "\ea74";
+}
+.vi-file-bookmark:before {
+  content: "\ea75";
+}
+.vi-file-clip:before {
+  content: "\ea76";
+}
+.vi-file-code:before {
+  content: "\ea77";
+}
+.vi-file-copy:before {
+  content: "\ea78";
+}
+.vi-file-corrupted:before {
+  content: "\ea79";
+}
+.vi-file-delete:before {
+  content: "\ea7a";
+}
+.vi-file-download:before {
+  content: "\ea7b";
+}
+.vi-file-edit:before {
+  content: "\ea7c";
+}
+.vi-file-error:before {
+  content: "\ea7d";
+}
+.vi-file-exchange:before {
+  content: "\ea7e";
+}
+.vi-file-export:before {
+  content: "\ea7f";
+}
+.vi-file-image:before {
+  content: "\ea80";
+}
+.vi-file-import:before {
+  content: "\ea81";
+}
+.vi-file-info:before {
+  content: "\ea82";
+}
+.vi-file-linked:before {
+  content: "\ea83";
+}
+.vi-file-load:before {
+  content: "\ea84";
+}
+.vi-file-locked:before {
+  content: "\ea85";
+}
+.vi-file-new:before {
+  content: "\ea86";
+}
+.vi-file-remove:before {
+  content: "\ea87";
+}
+.vi-file-search:before {
+  content: "\ea8a";
+}
+.vi-file-settings:before {
+  content: "\ea8b";
+}
+.vi-file-share:before {
+  content: "\ea8c";
+}
+.vi-file-star:before {
+  content: "\ea8d";
+}
+.vi-file-sync:before {
+  content: "\ea8e";
+}
+.vi-file-table:before {
+  content: "\ea8f";
+}
+.vi-file-text:before {
+  content: "\ea90";
+}
+.vi-file-upload:before {
+  content: "\ea91";
+}
+.vi-file-vector:before {
+  content: "\ea92";
+}
+.vi-file-video:before {
+  content: "\ea93";
+}
+.vi-file-warning:before {
+  content: "\ea94";
+}
+.vi-files:before {
+  content: "\ea88";
+}
+.vi-files-2:before {
+  content: "\ea89";
+}
 .vi-flash:before {
   content: "\e962";
 }
@@ -879,6 +1044,24 @@ i, .icomoon-liga {
 .vi-phone-call-in:before {
   content: "\ea67";
 }
+.vi-phone-call-out:before {
+  content: "\ea68";
+}
+.vi-phone-contacts:before {
+  content: "\ea69";
+}
+.vi-phone-message:before {
+  content: "\ea6a";
+}
+.vi-phone-message-2:before {
+  content: "\ea6b";
+}
+.vi-phone-message-3:before {
+  content: "\ea6c";
+}
+.vi-phone-ring:before {
+  content: "\ea6d";
+}
 .vi-phone-vibration:before {
   content: "\e998";
 }
@@ -911,6 +1094,9 @@ i, .icomoon-liga {
 }
 .vi-price-tag:before {
   content: "\e9d4";
+}
+.vi-q-and-a:before {
+  content: "\ea6e";
 }
 .vi-qr-code:before {
   content: "\e9da";
@@ -1029,6 +1215,9 @@ i, .icomoon-liga {
 .vi-tabs-2:before {
   content: "\e9b0";
 }
+.vi-telephone:before {
+  content: "\ea6f";
+}
 .vi-tesla:before {
   content: "\e933";
 }
@@ -1076,6 +1265,9 @@ i, .icomoon-liga {
 }
 .vi-visualmodo:before {
   content: "\e907";
+}
+.vi-voicemail:before {
+  content: "\ea70";
 }
 .vi-wallet:before {
   content: "\e9d8";
