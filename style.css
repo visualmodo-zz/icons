@@ -1,17 +1,18 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('fonts/vi.ttf?wuom4n') format('truetype'),
-    url('fonts/vi.woff?wuom4n') format('woff'),
-    url('fonts/vi.svg?wuom4n#vi') format('svg');
+    url('fonts/vi.ttf?fy8zti') format('truetype'),
+    url('fonts/vi.woff?fy8zti') format('woff'),
+    url('fonts/vi.svg?fy8zti#vi') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 i, .icomoon-liga {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'vi' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -33,6 +34,12 @@ i, .icomoon-liga {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-borderless:before {
+  content: "\e914";
+}
+.vi-tiktok:before {
+  content: "\eab1";
+}
 .vi-folder-warning:before {
   content: "\eab0";
 }
@@ -701,9 +708,6 @@ i, .icomoon-liga {
 }
 .vi-google:before {
   content: "\e913";
-}
-.vi-google+:before {
-  content: "\e914";
 }
 .vi-google-play:before {
   content: "\e923";

@@ -248,7 +248,6 @@
             'Git': '&#xe90e;',
             'Github': '&#xe90c;',
             'Google': '&#xe913;',
-            'Google Plus': '&#xe914;',
             'Google Play': '&#xe923;',
             'Grid Circles': '&#xe968;',
             'Grid Squares': '&#xe969;',
