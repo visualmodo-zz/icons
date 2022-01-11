@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'vi';
   src:
-    url('{{ page.baseurl }}/fonts/vi.ttf?fy8zti') format('truetype'),
-    url('{{ page.baseurl }}/fonts/vi.woff?fy8zti') format('woff'),
-    url('{{ page.baseurl }}/fonts/vi.svg?fy8zti#vi') format('svg');
+    url('../fonts/vi.ttf?fy8zti') format('truetype'),
+    url('../fonts/vi.woff?fy8zti') format('woff'),
+    url('../fonts/vi.svg?fy8zti#vi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
