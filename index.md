@@ -1,5 +1,5 @@
 ---
-title: My page
+title: IcoMoon Demo
 layout: default
 ---
 
